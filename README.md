@@ -28,9 +28,9 @@ Both results and searches can be saved in database for the next visit (if the us
 
 ## Screenshots
 
-![App Screenshot](https://github.com/leo-terrier/dealfinder/master/screenshots/screenshot.png?raw=true)
-![App Screenshot](https://github.com/leo-terrier/dealfinder/master/screenshots/screenshot2.png?raw=true)
-![App Screenshot](https://github.com/leo-terrier/dealfinder/master/screenshots/screenshot3.png?raw=true)
+![App Screenshot](https://github.com/leo-terrier/dealfinder/blob/master/screenshots/screenshot.png?raw=true)
+![App Screenshot](https://github.com/leo-terrier/dealfinder/blob/master/screenshots/screenshot2.png?raw=true)
+![App Screenshot](https://github.com/leo-terrier/dealfinder/blob/master/screenshots/screenshot3.png?raw=true)
 
 ## Data source
 
