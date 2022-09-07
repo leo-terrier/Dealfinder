@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+.form {
+ font-family:"catamaran"
+}
+
+.img {
+  max-width: 200px;
+
+}
+
+.b {
+  color: rgb(107, 95, 236)
+}
+
+
+.savedSearchContainer {
+  cursor: pointer;
+  position: relative
+}
+
+.dealContainer {
+  background-color: rgba(125, 194, 237, .5)
+};
+
+.MuiDataGrid-root .MuiDataGrid-columnHeader:focus,
+.MuiDataGrid-root .MuiDataGrid-cell:focus,
+.MuiDataGrid-root .MuiDataGrid-cell--withRenderer:focus {
+  outline: none !important;
+}

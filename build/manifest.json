@@ -1,0 +1,13 @@
+{
+  "theme_color" : "white",
+  "background_color" : "#336699",
+  "display" : "browser",
+  "scope" : "/",
+  "start_url" : "/https://dealfinder.onrender.com/",
+  "name" : "Deal Finder",
+  "short_name" : "Deal Finder",
+  "description" : "Browse real estate deal in all of France",
+  "icons": [{
+    "src": "./manifest.png"}
+  ]
+  }

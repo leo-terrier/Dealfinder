@@ -1,0 +1,5423 @@
+{
+  "total_count": 507,
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records?select=+exclude%28reg_name%29%2Cexclude%28code_type_local%29%2Cexclude%28epci%2A%29%2Cexclude%28latitude%29%2Cexclude%28com_code%29%2Cexclude%28dep_code%29%2Cexclude%28id_parcelle%29%2C+exclude%28numero_disposition%29%2C+exclude%28adresse_code_voie%29%2C+exclude%28com_code%29%2C+exclude%28ancien%2A%29%2C+exclude%28id_parcelle%29%2C+exclude%28numero_volume%29%2C+exclude%28nombre_lots%29%2C+exclude%28code_type_local%29%2C+exclude%28code_nature_culture%29%2C+exclude%28code_nature_culture_speciale%29%2C+exclude%28nature_culture_speciale%29%2C+exclude%28code_type_local%29&where=distance%28geo_point%2C+GEOM%27POINT%282.354168+48.853323%29%27%2C0.3km%29+and+%28type_local%3D%22Maison%22+or+type_local%3D%22Appartement%22%29&limit=100&offset=0&timezone=UTC"
+    },
+    {
+      "rel": "first",
+      "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records?select=+exclude%28reg_name%29%2Cexclude%28code_type_local%29%2Cexclude%28epci%2A%29%2Cexclude%28latitude%29%2Cexclude%28com_code%29%2Cexclude%28dep_code%29%2Cexclude%28id_parcelle%29%2C+exclude%28numero_disposition%29%2C+exclude%28adresse_code_voie%29%2C+exclude%28com_code%29%2C+exclude%28ancien%2A%29%2C+exclude%28id_parcelle%29%2C+exclude%28numero_volume%29%2C+exclude%28nombre_lots%29%2C+exclude%28code_type_local%29%2C+exclude%28code_nature_culture%29%2C+exclude%28code_nature_culture_speciale%29%2C+exclude%28nature_culture_speciale%29%2C+exclude%28code_type_local%29&where=distance%28geo_point%2C+GEOM%27POINT%282.354168+48.853323%29%27%2C0.3km%29+and+%28type_local%3D%22Maison%22+or+type_local%3D%22Appartement%22%29&limit=100&offset=0&timezone=UTC"
+    },
+    {
+      "rel": "last",
+      "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records?select=+exclude%28reg_name%29%2Cexclude%28code_type_local%29%2Cexclude%28epci%2A%29%2Cexclude%28latitude%29%2Cexclude%28com_code%29%2Cexclude%28dep_code%29%2Cexclude%28id_parcelle%29%2C+exclude%28numero_disposition%29%2C+exclude%28adresse_code_voie%29%2C+exclude%28com_code%29%2C+exclude%28ancien%2A%29%2C+exclude%28id_parcelle%29%2C+exclude%28numero_volume%29%2C+exclude%28nombre_lots%29%2C+exclude%28code_type_local%29%2C+exclude%28code_nature_culture%29%2C+exclude%28code_nature_culture_speciale%29%2C+exclude%28nature_culture_speciale%29%2C+exclude%28code_type_local%29&where=distance%28geo_point%2C+GEOM%27POINT%282.354168+48.853323%29%27%2C0.3km%29+and+%28type_local%3D%22Maison%22+or+type_local%3D%22Appartement%22%29&limit=100&offset=500&timezone=UTC"
+    },
+    {
+      "rel": "next",
+      "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records?select=+exclude%28reg_name%29%2Cexclude%28code_type_local%29%2Cexclude%28epci%2A%29%2Cexclude%28latitude%29%2Cexclude%28com_code%29%2Cexclude%28dep_code%29%2Cexclude%28id_parcelle%29%2C+exclude%28numero_disposition%29%2C+exclude%28adresse_code_voie%29%2C+exclude%28com_code%29%2C+exclude%28ancien%2A%29%2C+exclude%28id_parcelle%29%2C+exclude%28numero_volume%29%2C+exclude%28nombre_lots%29%2C+exclude%28code_type_local%29%2C+exclude%28code_nature_culture%29%2C+exclude%28code_nature_culture_speciale%29%2C+exclude%28nature_culture_speciale%29%2C+exclude%28code_type_local%29&where=distance%28geo_point%2C+GEOM%27POINT%282.354168+48.853323%29%27%2C0.3km%29+and+%28type_local%3D%22Maison%22+or+type_local%3D%22Appartement%22%29&limit=100&offset=100&timezone=UTC"
+    }
+  ],
+  "records": [
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/f717309fc700b331d7a74141ff022af548e55024"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "f717309fc700b331d7a74141ff022af548e55024",
+        "timestamp": "2021-05-29T05:39:00Z",
+        "size": 339,
+        "fields": {
+          "id_mutation": "2015-1185258",
+          "date_mutation": "2015-04-14",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 382500,
+          "adresse_numero": 17,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "RUE CHANOINESSE",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "73",
+          "lot1_surface_carrez": 34.15,
+          "lot2_numero": "86",
+          "lot2_surface_carrez": null,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 36,
+          "nombre_pieces_principales": 2,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.350327,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.350327,
+            "lat": 48.853859
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/99e369088179b469ed7b57943acf734f40ba380f"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "99e369088179b469ed7b57943acf734f40ba380f",
+        "timestamp": "2021-05-29T05:39:00Z",
+        "size": 340,
+        "fields": {
+          "id_mutation": "2015-1185733",
+          "date_mutation": "2015-09-16",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 571500,
+          "adresse_numero": 38,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "RUE ST LOUIS EN L ILE",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "30",
+          "lot1_surface_carrez": null,
+          "lot2_numero": "37",
+          "lot2_surface_carrez": 46.1,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 45,
+          "nombre_pieces_principales": 1,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.357244,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.357244,
+            "lat": 48.8518
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/a380a1f1282d9b03d700d6e60bcdcac42a270849"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "a380a1f1282d9b03d700d6e60bcdcac42a270849",
+        "timestamp": "2021-05-29T05:39:00Z",
+        "size": 335,
+        "fields": {
+          "id_mutation": "2015-1185846",
+          "date_mutation": "2015-10-06",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 24100000,
+          "adresse_numero": 1,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "QUAI AUX FLEURS",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "12",
+          "lot1_surface_carrez": null,
+          "lot2_numero": "42",
+          "lot2_surface_carrez": null,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 107,
+          "nombre_pieces_principales": 5,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.351879,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.351879,
+            "lat": 48.852925
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/6f4c64a5c510a107fbe20e1151d00e38e0ee6341"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "6f4c64a5c510a107fbe20e1151d00e38e0ee6341",
+        "timestamp": "2021-05-29T05:39:00Z",
+        "size": 347,
+        "fields": {
+          "id_mutation": "2017-1446045",
+          "date_mutation": "2017-04-11",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 1800000,
+          "adresse_numero": 55,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "RUE ST LOUIS EN L ILE",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "23",
+          "lot1_surface_carrez": null,
+          "lot2_numero": "8",
+          "lot2_surface_carrez": 150.79,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 175,
+          "nombre_pieces_principales": 5,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.355152,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.355152,
+            "lat": 48.852077
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/d161cda93d2b840d6ad6dfc4238cee6e50ed5949"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "d161cda93d2b840d6ad6dfc4238cee6e50ed5949",
+        "timestamp": "2021-05-29T05:39:00Z",
+        "size": 345,
+        "fields": {
+          "id_mutation": "2017-1446146",
+          "date_mutation": "2017-04-13",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 1187120,
+          "adresse_numero": 68,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "RUE ST LOUIS EN L ILE",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "18",
+          "lot1_surface_carrez": null,
+          "lot2_numero": "6",
+          "lot2_surface_carrez": 80.31,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 84,
+          "nombre_pieces_principales": 3,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.355419,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.355419,
+            "lat": 48.852449
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/42c24757fa97d93a88f6ee8cfac61e8f29d58446"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "42c24757fa97d93a88f6ee8cfac61e8f29d58446",
+        "timestamp": "2021-05-29T05:39:00Z",
+        "size": 330,
+        "fields": {
+          "id_mutation": "2017-1446439",
+          "date_mutation": "2017-06-12",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 1925000,
+          "adresse_numero": 9,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "QUAI AUX FLEURS",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "113",
+          "lot1_surface_carrez": 92,
+          "lot2_numero": null,
+          "lot2_surface_carrez": null,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 88,
+          "nombre_pieces_principales": 4,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.351696,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.351696,
+            "lat": 48.8537
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/b5f8eea6a809672f5fecbd17c525bfa19a073756"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "b5f8eea6a809672f5fecbd17c525bfa19a073756",
+        "timestamp": "2021-05-29T05:39:00Z",
+        "size": 342,
+        "fields": {
+          "id_mutation": "2017-1446601",
+          "date_mutation": "2017-07-25",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 750000,
+          "adresse_numero": 19,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "RUE DES DEUX PONTS",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "34",
+          "lot1_surface_carrez": null,
+          "lot2_numero": "36",
+          "lot2_surface_carrez": 61.95,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 73,
+          "nombre_pieces_principales": 3,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.356175,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.356175,
+            "lat": 48.851794
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/5700c17464d7e3aeb279d1957d1719cefec2ec66"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "5700c17464d7e3aeb279d1957d1719cefec2ec66",
+        "timestamp": "2021-05-29T05:39:00Z",
+        "size": 334,
+        "fields": {
+          "id_mutation": "2017-1446708",
+          "date_mutation": "2017-09-01",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 245000,
+          "adresse_numero": 10,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "RUE BOUTAREL",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "18",
+          "lot1_surface_carrez": null,
+          "lot2_numero": "6",
+          "lot2_surface_carrez": 15.4,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 16,
+          "nombre_pieces_principales": 1,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.354122,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.354122,
+            "lat": 48.852426
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/1140aaf74e08c23eb6c62ae9fe14ca20802839e2"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "1140aaf74e08c23eb6c62ae9fe14ca20802839e2",
+        "timestamp": "2021-05-29T05:39:00Z",
+        "size": 331,
+        "fields": {
+          "id_mutation": "2020-1074903",
+          "date_mutation": "2020-09-10",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": null,
+          "adresse_numero": 24,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "RUE LE REGRATTIER",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "14",
+          "lot1_surface_carrez": null,
+          "lot2_numero": "20",
+          "lot2_surface_carrez": null,
+          "lot3_numero": "36",
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 94,
+          "nombre_pieces_principales": 5,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.355213,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.355213,
+            "lat": 48.852553
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/7ad821ba8e5298dec28c30f046e863709dbd2857"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "7ad821ba8e5298dec28c30f046e863709dbd2857",
+        "timestamp": "2021-05-29T05:39:00Z",
+        "size": 348,
+        "fields": {
+          "id_mutation": "2020-1075058",
+          "date_mutation": "2020-11-16",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 1125000,
+          "adresse_numero": 29,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "RUE DES DEUX PONTS",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "13",
+          "lot1_surface_carrez": 86.15,
+          "lot2_numero": "25",
+          "lot2_surface_carrez": null,
+          "lot3_numero": "33",
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 35,
+          "nombre_pieces_principales": 1,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.356549,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.356549,
+            "lat": 48.852145
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/c39aa37af8d3fb602d38054ea239a9fad744f9e3"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "c39aa37af8d3fb602d38054ea239a9fad744f9e3",
+        "timestamp": "2021-05-29T05:39:00Z",
+        "size": 341,
+        "fields": {
+          "id_mutation": "2020-1075291",
+          "date_mutation": "2020-12-16",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 1937500,
+          "adresse_numero": 24,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "RUE CHANOINESSE",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": null,
+          "lot1_surface_carrez": null,
+          "lot2_numero": null,
+          "lot2_surface_carrez": null,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 33,
+          "nombre_pieces_principales": 1,
+          "nature_culture": "sols",
+          "surface_terrain": 447,
+          "longitude": 2.350486,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.350486,
+            "lat": 48.854301
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/bee44687dbcef8ad2e587eb3c32e9e60a140b5ec"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "bee44687dbcef8ad2e587eb3c32e9e60a140b5ec",
+        "timestamp": "2021-05-29T05:40:00Z",
+        "size": 352,
+        "fields": {
+          "id_mutation": "2016-1273539",
+          "date_mutation": "2016-06-22",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 2700000,
+          "adresse_numero": 8,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "RUE DU CLOITRE NOTRE DAME",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "108",
+          "lot1_surface_carrez": null,
+          "lot2_numero": "131",
+          "lot2_surface_carrez": null,
+          "lot3_numero": "132",
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 160,
+          "nombre_pieces_principales": 4,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.350444,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.350444,
+            "lat": 48.853362
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/c613c6f212b644cb168af62a91178fc1ee4463f9"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "c613c6f212b644cb168af62a91178fc1ee4463f9",
+        "timestamp": "2021-05-29T05:40:00Z",
+        "size": 340,
+        "fields": {
+          "id_mutation": "2016-1273719",
+          "date_mutation": "2016-08-10",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 1120000,
+          "adresse_numero": 73,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "RUE ST LOUIS EN L ILE",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "7",
+          "lot1_surface_carrez": 73.84,
+          "lot2_numero": null,
+          "lot2_surface_carrez": null,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 30,
+          "nombre_pieces_principales": 1,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.354255,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.354255,
+            "lat": 48.852467
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/f9c3f094c8afaff4aee9ed2a860ce230ab26d76e"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "f9c3f094c8afaff4aee9ed2a860ce230ab26d76e",
+        "timestamp": "2021-05-29T05:40:00Z",
+        "size": 339,
+        "fields": {
+          "id_mutation": "2016-1273877",
+          "date_mutation": "2016-10-04",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 186200,
+          "adresse_numero": 55,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "RUE ST LOUIS EN L ILE",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "14",
+          "lot1_surface_carrez": null,
+          "lot2_numero": "21",
+          "lot2_surface_carrez": null,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 29,
+          "nombre_pieces_principales": 1,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.355152,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.355152,
+            "lat": 48.852077
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/2b58645af14cf973419fe4ccab8884948a23c596"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "2b58645af14cf973419fe4ccab8884948a23c596",
+        "timestamp": "2021-05-29T05:40:00Z",
+        "size": 347,
+        "fields": {
+          "id_mutation": "2016-1273984",
+          "date_mutation": "2016-10-20",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 831700,
+          "adresse_numero": 71,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "RUE ST LOUIS EN L ILE",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "139",
+          "lot1_surface_carrez": null,
+          "lot2_numero": "154",
+          "lot2_surface_carrez": 63.45,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 80,
+          "nombre_pieces_principales": 4,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.354258,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.354258,
+            "lat": 48.852352
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/1832f703cfe77ab17e2bfadc1d10d5f166123130"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "1832f703cfe77ab17e2bfadc1d10d5f166123130",
+        "timestamp": "2021-05-29T05:38:00Z",
+        "size": 337,
+        "fields": {
+          "id_mutation": "2018-1431277",
+          "date_mutation": "2018-03-07",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 3478000,
+          "adresse_numero": 19,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "QUAI DE BOURBON",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "136",
+          "lot1_surface_carrez": null,
+          "lot2_numero": "138",
+          "lot2_surface_carrez": null,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 135,
+          "nombre_pieces_principales": 5,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.355507,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.355507,
+            "lat": 48.852674
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/556e8402bf78b8fae5f5a894476d30bb9f381c94"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "556e8402bf78b8fae5f5a894476d30bb9f381c94",
+        "timestamp": "2021-05-29T05:38:00Z",
+        "size": 338,
+        "fields": {
+          "id_mutation": "2018-1431801",
+          "date_mutation": "2018-07-10",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 5684100,
+          "adresse_numero": 14,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "QUAI D ORLEANS",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "12",
+          "lot1_surface_carrez": 48.6,
+          "lot2_numero": "29",
+          "lot2_surface_carrez": null,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 48,
+          "nombre_pieces_principales": 3,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.355105,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.355105,
+            "lat": 48.851625
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/494036f2dc397556cdc4e3cdcd7dbc222e499696"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "494036f2dc397556cdc4e3cdcd7dbc222e499696",
+        "timestamp": "2021-05-29T05:38:00Z",
+        "size": 361,
+        "fields": {
+          "id_mutation": "2018-1432096",
+          "date_mutation": "2018-09-12",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 2674734,
+          "adresse_numero": 33,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "QUAI D ANJOU",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "11",
+          "lot1_surface_carrez": 165.81,
+          "lot2_numero": "12",
+          "lot2_surface_carrez": null,
+          "lot3_numero": "13",
+          "lot3_surface_carrez": 165.81,
+          "lot4_numero": "16",
+          "lot4_surface_carrez": null,
+          "lot5_numero": "17",
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 158,
+          "nombre_pieces_principales": 4,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.357405,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.357405,
+            "lat": 48.852128
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/4de284d9de7d00e66578a7e6c5455f1fd99d7009"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "4de284d9de7d00e66578a7e6c5455f1fd99d7009",
+        "timestamp": "2021-05-29T05:38:00Z",
+        "size": 347,
+        "fields": {
+          "id_mutation": "2018-1432304",
+          "date_mutation": "2018-10-25",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 1572000,
+          "adresse_numero": 72,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "RUE ST LOUIS EN L ILE",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "22",
+          "lot1_surface_carrez": null,
+          "lot2_numero": "23",
+          "lot2_surface_carrez": null,
+          "lot3_numero": "3",
+          "lot3_surface_carrez": null,
+          "lot4_numero": "4",
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 100,
+          "nombre_pieces_principales": 4,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.355085,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.355085,
+            "lat": 48.85251
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/83d111955d7e986ccb0daeac99a4fad939c418c5"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "83d111955d7e986ccb0daeac99a4fad939c418c5",
+        "timestamp": "2021-05-29T05:40:00Z",
+        "size": 339,
+        "fields": {
+          "id_mutation": "2019-1513304",
+          "date_mutation": "2019-01-28",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 1419800,
+          "adresse_numero": 41,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "QUAI DE BOURBON",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "13",
+          "lot1_surface_carrez": null,
+          "lot2_numero": "4",
+          "lot2_surface_carrez": 74.07,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 75,
+          "nombre_pieces_principales": 2,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.353544,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.353544,
+            "lat": 48.853363
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/604490ab95bcec620b87898ac73141498d76d64e"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "604490ab95bcec620b87898ac73141498d76d64e",
+        "timestamp": "2021-05-29T05:40:00Z",
+        "size": 338,
+        "fields": {
+          "id_mutation": "2019-1514161",
+          "date_mutation": "2019-07-26",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 1750000,
+          "adresse_numero": 3,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "RUE LE REGRATTIER",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "5",
+          "lot1_surface_carrez": 95.5,
+          "lot2_numero": "9",
+          "lot2_surface_carrez": null,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 90,
+          "nombre_pieces_principales": 4,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.354197,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.354197,
+            "lat": 48.851948
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/373e68dd93460b71010697201a5f92af8c31ed1f"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "373e68dd93460b71010697201a5f92af8c31ed1f",
+        "timestamp": "2021-05-29T05:40:00Z",
+        "size": 351,
+        "fields": {
+          "id_mutation": "2019-1514332",
+          "date_mutation": "2019-08-30",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 1456000,
+          "adresse_numero": 12,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "RUE LE REGRATTIER",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "1",
+          "lot1_surface_carrez": null,
+          "lot2_numero": "10",
+          "lot2_surface_carrez": null,
+          "lot3_numero": "11",
+          "lot3_surface_carrez": null,
+          "lot4_numero": "12",
+          "lot4_surface_carrez": null,
+          "lot5_numero": "13",
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 85,
+          "nombre_pieces_principales": 3,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.354773,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.354773,
+            "lat": 48.852036
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/fe5b3276d54fbb2a1c87f5b3df8098ea21e7caec"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "fe5b3276d54fbb2a1c87f5b3df8098ea21e7caec",
+        "timestamp": "2021-05-29T05:40:00Z",
+        "size": 338,
+        "fields": {
+          "id_mutation": "2019-1514508",
+          "date_mutation": "2019-10-22",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 1200000,
+          "adresse_numero": 15,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "QUAI DE BOURBON",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "82",
+          "lot1_surface_carrez": 72.04,
+          "lot2_numero": "83",
+          "lot2_surface_carrez": null,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 65,
+          "nombre_pieces_principales": 2,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.355949,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.355949,
+            "lat": 48.85238
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/d64a7638918365139bf6aa057eef3235260f3986"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "d64a7638918365139bf6aa057eef3235260f3986",
+        "timestamp": "2021-05-29T05:38:00Z",
+        "size": 338,
+        "fields": {
+          "id_mutation": "2014-1089788",
+          "date_mutation": "2014-07-04",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 2580000,
+          "adresse_numero": 4,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "RUE DES DEUX PONTS",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "5",
+          "lot1_surface_carrez": 140.21,
+          "lot2_numero": null,
+          "lot2_surface_carrez": null,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 135,
+          "nombre_pieces_principales": 6,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.356199,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.356199,
+            "lat": 48.851242
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/de946175ff3ca31cf2f86b8a89773ff19d2a59f1"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "de946175ff3ca31cf2f86b8a89773ff19d2a59f1",
+        "timestamp": "2021-05-29T05:38:00Z",
+        "size": 337,
+        "fields": {
+          "id_mutation": "2014-1089864",
+          "date_mutation": "2014-07-31",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 372000,
+          "adresse_numero": 19,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "RUE DES DEUX PONTS",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "32",
+          "lot1_surface_carrez": 27.57,
+          "lot2_numero": null,
+          "lot2_surface_carrez": null,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 28,
+          "nombre_pieces_principales": 2,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.356175,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.356175,
+            "lat": 48.851794
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/05520ea689479589fe04b8b1d0fef298b56e4255"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "05520ea689479589fe04b8b1d0fef298b56e4255",
+        "timestamp": "2021-05-29T05:38:00Z",
+        "size": 344,
+        "fields": {
+          "id_mutation": "2014-1089999",
+          "date_mutation": "2014-09-09",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 920000,
+          "adresse_numero": 68,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "RUE ST LOUIS EN L ILE",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "18",
+          "lot1_surface_carrez": null,
+          "lot2_numero": "6",
+          "lot2_surface_carrez": 80.65,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 84,
+          "nombre_pieces_principales": 3,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.355419,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.355419,
+            "lat": 48.852449
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/8697337491168992d5813c57490f9ce0e9ed9787"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "8697337491168992d5813c57490f9ce0e9ed9787",
+        "timestamp": "2021-05-29T05:38:00Z",
+        "size": 339,
+        "fields": {
+          "id_mutation": "2018-1431682",
+          "date_mutation": "2018-06-07",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 1280000,
+          "adresse_numero": 15,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "QUAI AUX FLEURS",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "35",
+          "lot1_surface_carrez": null,
+          "lot2_numero": "6",
+          "lot2_surface_carrez": 59.84,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 60,
+          "nombre_pieces_principales": 2,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.351143,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.351143,
+            "lat": 48.854371
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/141e4f2a0beffd5103f6192b02e0c40691f4b70e"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "141e4f2a0beffd5103f6192b02e0c40691f4b70e",
+        "timestamp": "2021-05-29T05:38:00Z",
+        "size": 350,
+        "fields": {
+          "id_mutation": "2018-1431801",
+          "date_mutation": "2018-07-10",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 5684100,
+          "adresse_numero": 14,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "QUAI D ORLEANS",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "10",
+          "lot1_surface_carrez": 128.6,
+          "lot2_numero": "18",
+          "lot2_surface_carrez": null,
+          "lot3_numero": "28",
+          "lot3_surface_carrez": null,
+          "lot4_numero": "49",
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 125,
+          "nombre_pieces_principales": 4,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.355105,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.355105,
+            "lat": 48.851625
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/5b5382fbff599466759905156e7d747e6137e542"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "5b5382fbff599466759905156e7d747e6137e542",
+        "timestamp": "2021-05-29T05:38:00Z",
+        "size": 334,
+        "fields": {
+          "id_mutation": "2018-1432008",
+          "date_mutation": "2018-07-27",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 125000,
+          "adresse_numero": 35,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "RUE DES DEUX PONTS",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "35",
+          "lot1_surface_carrez": 15,
+          "lot2_numero": null,
+          "lot2_surface_carrez": null,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 20,
+          "nombre_pieces_principales": 1,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.35669,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.35669,
+            "lat": 48.852339
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/7f7eaeef9378384fe2dcb55079c781e7214e632c"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "7f7eaeef9378384fe2dcb55079c781e7214e632c",
+        "timestamp": "2021-05-29T05:38:00Z",
+        "size": 346,
+        "fields": {
+          "id_mutation": "2018-1432083",
+          "date_mutation": "2018-09-14",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 2015000,
+          "adresse_numero": 7,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "QUAI DE BOURBON",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "10",
+          "lot1_surface_carrez": null,
+          "lot2_numero": "7",
+          "lot2_surface_carrez": 111.75,
+          "lot3_numero": "8",
+          "lot3_surface_carrez": null,
+          "lot4_numero": "9",
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 125,
+          "nombre_pieces_principales": 1,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.356661,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.356661,
+            "lat": 48.85243
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/8e3220787d9b6296e72397d3fe197e50ad124e2f"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "8e3220787d9b6296e72397d3fe197e50ad124e2f",
+        "timestamp": "2021-05-29T05:38:00Z",
+        "size": 339,
+        "fields": {
+          "id_mutation": "2018-1432207",
+          "date_mutation": "2018-10-04",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 1947500,
+          "adresse_numero": 33,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "QUAI DE BOURBON",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "112",
+          "lot1_surface_carrez": 87.8,
+          "lot2_numero": "125",
+          "lot2_surface_carrez": null,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 84,
+          "nombre_pieces_principales": 4,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.354123,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.354123,
+            "lat": 48.85325
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/d9f7c8aa0c7d0104bc00b1cb39c038c933c35b08"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "d9f7c8aa0c7d0104bc00b1cb39c038c933c35b08",
+        "timestamp": "2021-05-29T05:39:00Z",
+        "size": 344,
+        "fields": {
+          "id_mutation": "2015-1185198",
+          "date_mutation": "2015-03-23",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 466000,
+          "adresse_numero": 5,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "RUE LE REGRATTIER",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "27",
+          "lot1_surface_carrez": null,
+          "lot2_numero": "28",
+          "lot2_surface_carrez": null,
+          "lot3_numero": "45",
+          "lot3_surface_carrez": null,
+          "lot4_numero": "55",
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 40,
+          "nombre_pieces_principales": 2,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.354229,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.354229,
+            "lat": 48.852034
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/1e87f23027705d86c1b672473a5ca9073c58fbc2"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "1e87f23027705d86c1b672473a5ca9073c58fbc2",
+        "timestamp": "2021-05-29T05:39:00Z",
+        "size": 343,
+        "fields": {
+          "id_mutation": "2015-1185344",
+          "date_mutation": "2015-05-20",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 4000000,
+          "adresse_numero": 16,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "QUAI D ORLEANS",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "111",
+          "lot1_surface_carrez": 187.23,
+          "lot2_numero": "122",
+          "lot2_surface_carrez": null,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 188,
+          "nombre_pieces_principales": 6,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.354945,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.354945,
+            "lat": 48.851726
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/8ede3ccad21bc07f4547f0afa3cffc3c1b7430a5"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "8ede3ccad21bc07f4547f0afa3cffc3c1b7430a5",
+        "timestamp": "2021-05-29T05:39:00Z",
+        "size": 329,
+        "fields": {
+          "id_mutation": "2015-1185513",
+          "date_mutation": "2015-07-27",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 430000,
+          "adresse_numero": 8,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "QUAI D ORLEANS",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "6",
+          "lot1_surface_carrez": null,
+          "lot2_numero": "8",
+          "lot2_surface_carrez": null,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 31,
+          "nombre_pieces_principales": 1,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.355516,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.355516,
+            "lat": 48.851438
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/73c0cec5c5de8d04393f665377b81e4d8dc095e0"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "73c0cec5c5de8d04393f665377b81e4d8dc095e0",
+        "timestamp": "2021-05-29T05:39:00Z",
+        "size": 332,
+        "fields": {
+          "id_mutation": "2015-1185611",
+          "date_mutation": "2015-07-16",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 843000,
+          "adresse_numero": 40,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "QUAI D ORLEANS",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "52",
+          "lot1_surface_carrez": 43,
+          "lot2_numero": null,
+          "lot2_surface_carrez": null,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 39,
+          "nombre_pieces_principales": 2,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.353576,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.353576,
+            "lat": 48.852605
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/a705df4f2ee63278da9286723337ae388a06e61f"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "a705df4f2ee63278da9286723337ae388a06e61f",
+        "timestamp": "2021-05-29T05:39:00Z",
+        "size": 334,
+        "fields": {
+          "id_mutation": "2015-1185995",
+          "date_mutation": "2015-11-06",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 471900,
+          "adresse_numero": 7,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "RUE BOUTAREL",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "28",
+          "lot1_surface_carrez": null,
+          "lot2_numero": "9",
+          "lot2_surface_carrez": 34.34,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 32,
+          "nombre_pieces_principales": 2,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.353931,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.353931,
+            "lat": 48.852613
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/e7ad9370ab2d50ba2d0d8c11bbbd9cfda1891212"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "e7ad9370ab2d50ba2d0d8c11bbbd9cfda1891212",
+        "timestamp": "2021-05-29T05:39:00Z",
+        "size": 341,
+        "fields": {
+          "id_mutation": "2015-1186220",
+          "date_mutation": "2015-12-29",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 448960,
+          "adresse_numero": 23,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "RUE LE REGRATTIER",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "11",
+          "lot1_surface_carrez": 26.05,
+          "lot2_numero": "28",
+          "lot2_surface_carrez": null,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 28,
+          "nombre_pieces_principales": 1,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.354883,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.354883,
+            "lat": 48.852709
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/57fdf2598b96583ab9eb7085c24655cc85544fe1"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "57fdf2598b96583ab9eb7085c24655cc85544fe1",
+        "timestamp": "2021-05-29T05:40:00Z",
+        "size": 335,
+        "fields": {
+          "id_mutation": "2019-1513532",
+          "date_mutation": "2019-03-19",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 722900,
+          "adresse_numero": 43,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "RUE ST LOUIS EN L ILE",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "12",
+          "lot1_surface_carrez": null,
+          "lot2_numero": "23",
+          "lot2_surface_carrez": null,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 57,
+          "nombre_pieces_principales": 2,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.35587,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.35587,
+            "lat": 48.85191
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/e0e49f6329fc3306df49f80847950d6e95663aee"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "e0e49f6329fc3306df49f80847950d6e95663aee",
+        "timestamp": "2021-05-29T05:40:00Z",
+        "size": 333,
+        "fields": {
+          "id_mutation": "2019-1513564",
+          "date_mutation": "2019-03-29",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 1700000,
+          "adresse_numero": 23,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "QUAI DE BOURBON",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "6",
+          "lot1_surface_carrez": 87.1,
+          "lot2_numero": null,
+          "lot2_surface_carrez": null,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 44,
+          "nombre_pieces_principales": 2,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.354768,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.354768,
+            "lat": 48.852942
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/68ff0987d848dfd025117c8723162a9692601bfc"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "68ff0987d848dfd025117c8723162a9692601bfc",
+        "timestamp": "2021-05-29T05:40:00Z",
+        "size": 334,
+        "fields": {
+          "id_mutation": "2019-1513980",
+          "date_mutation": "2019-06-24",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 510000,
+          "adresse_numero": 15,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "QUAI AUX FLEURS",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "10",
+          "lot1_surface_carrez": 17.88,
+          "lot2_numero": null,
+          "lot2_surface_carrez": null,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 22,
+          "nombre_pieces_principales": 1,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.351143,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.351143,
+            "lat": 48.854371
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/ab959e8b3b6fe3169215700871f34cfa408da369"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "ab959e8b3b6fe3169215700871f34cfa408da369",
+        "timestamp": "2021-05-29T05:40:00Z",
+        "size": 345,
+        "fields": {
+          "id_mutation": "2019-1514730",
+          "date_mutation": "2019-12-10",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 680000,
+          "adresse_numero": 62,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "RUE ST LOUIS EN L ILE",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "25",
+          "lot1_surface_carrez": null,
+          "lot2_numero": "32",
+          "lot2_surface_carrez": 36.48,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 40,
+          "nombre_pieces_principales": 3,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.355736,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.355736,
+            "lat": 48.852242
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/276dd6470cadd537783f6648f716a85a4395d82c"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "276dd6470cadd537783f6648f716a85a4395d82c",
+        "timestamp": "2021-05-29T05:39:00Z",
+        "size": 340,
+        "fields": {
+          "id_mutation": "2017-1447185",
+          "date_mutation": "2017-12-29",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 1000000,
+          "adresse_numero": 55,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "RUE ST LOUIS EN L ILE",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "7",
+          "lot1_surface_carrez": 57.34,
+          "lot2_numero": null,
+          "lot2_surface_carrez": null,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 62,
+          "nombre_pieces_principales": 2,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.355152,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.355152,
+            "lat": 48.852077
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/a039f0d4cf425d3dcb5eb8e47289e4548e956da9"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "a039f0d4cf425d3dcb5eb8e47289e4548e956da9",
+        "timestamp": "2021-05-29T05:39:00Z",
+        "size": 340,
+        "fields": {
+          "id_mutation": "2017-1446045",
+          "date_mutation": "2017-04-11",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 1800000,
+          "adresse_numero": 55,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "RUE ST LOUIS EN L ILE",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "11",
+          "lot1_surface_carrez": null,
+          "lot2_numero": "13",
+          "lot2_surface_carrez": null,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 33,
+          "nombre_pieces_principales": 1,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.355152,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.355152,
+            "lat": 48.852077
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/dd3aee5a1acbae2849515da1a4f883543efeaca9"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "dd3aee5a1acbae2849515da1a4f883543efeaca9",
+        "timestamp": "2021-05-29T05:39:00Z",
+        "size": 344,
+        "fields": {
+          "id_mutation": "2017-1446339",
+          "date_mutation": "2017-05-24",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 780000,
+          "adresse_numero": 25,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "RUE ST LOUIS EN L ILE",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "12",
+          "lot1_surface_carrez": 69,
+          "lot2_numero": "27",
+          "lot2_surface_carrez": null,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 70,
+          "nombre_pieces_principales": 3,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.356933,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.356933,
+            "lat": 48.851431
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/541bba6aab0b7df99e4a015bd9349708ef8d04bb"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "541bba6aab0b7df99e4a015bd9349708ef8d04bb",
+        "timestamp": "2021-05-29T05:40:00Z",
+        "size": 342,
+        "fields": {
+          "id_mutation": "2016-1273498",
+          "date_mutation": "2016-06-28",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 2288900,
+          "adresse_numero": 21,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "QUAI DE BOURBON",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "65",
+          "lot1_surface_carrez": 132.88,
+          "lot2_numero": "68",
+          "lot2_surface_carrez": null,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 127,
+          "nombre_pieces_principales": 2,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.354892,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.354892,
+            "lat": 48.852877
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/78d06283664798df0cf000173c509a4af4e781ba"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "78d06283664798df0cf000173c509a4af4e781ba",
+        "timestamp": "2021-05-29T05:40:00Z",
+        "size": 350,
+        "fields": {
+          "id_mutation": "2016-1273762",
+          "date_mutation": "2016-08-16",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 700000,
+          "adresse_numero": 38,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "RUE ST LOUIS EN L ILE",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "26",
+          "lot1_surface_carrez": null,
+          "lot2_numero": "27",
+          "lot2_surface_carrez": null,
+          "lot3_numero": "31",
+          "lot3_surface_carrez": null,
+          "lot4_numero": "39",
+          "lot4_surface_carrez": 39,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 44,
+          "nombre_pieces_principales": 2,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.357244,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.357244,
+            "lat": 48.8518
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/9b8d59a016a31280dce824375231874f9b4520ee"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "9b8d59a016a31280dce824375231874f9b4520ee",
+        "timestamp": "2021-05-29T05:39:00Z",
+        "size": 328,
+        "fields": {
+          "id_mutation": "2020-1075117",
+          "date_mutation": "2020-12-02",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 15000,
+          "adresse_numero": 35,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "RUE DES DEUX PONTS",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "20",
+          "lot1_surface_carrez": null,
+          "lot2_numero": null,
+          "lot2_surface_carrez": null,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 47,
+          "nombre_pieces_principales": 1,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.35669,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.35669,
+            "lat": 48.852339
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/1b29445bc9f2da01f5a8107685ddc36637083205"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "1b29445bc9f2da01f5a8107685ddc36637083205",
+        "timestamp": "2021-05-29T05:39:00Z",
+        "size": 331,
+        "fields": {
+          "id_mutation": "2017-1446972",
+          "date_mutation": "2017-10-17",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 340000,
+          "adresse_numero": 8,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "RUE BUDE",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "20",
+          "lot1_surface_carrez": null,
+          "lot2_numero": "31",
+          "lot2_surface_carrez": 26.36,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 36,
+          "nombre_pieces_principales": 1,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.355759,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.355759,
+            "lat": 48.851645
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/cafc8ee2fe67622fc743ef48e8b4e3746b31a145"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "cafc8ee2fe67622fc743ef48e8b4e3746b31a145",
+        "timestamp": "2021-05-29T05:39:00Z",
+        "size": 339,
+        "fields": {
+          "id_mutation": "2017-1446037",
+          "date_mutation": "2017-03-17",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 344500,
+          "adresse_numero": 86,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "RUE ST LOUIS EN L ILE",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "11",
+          "lot1_surface_carrez": 15.1,
+          "lot2_numero": null,
+          "lot2_surface_carrez": null,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 22,
+          "nombre_pieces_principales": 1,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.354272,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.354272,
+            "lat": 48.852782
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/d81fe15b2d6714946dd7da705edc3656f79d7361"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "d81fe15b2d6714946dd7da705edc3656f79d7361",
+        "timestamp": "2021-05-29T05:39:00Z",
+        "size": 324,
+        "fields": {
+          "id_mutation": "2017-1446354",
+          "date_mutation": "2017-06-15",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 420000,
+          "adresse_numero": 12,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "RUE BOUTAREL",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "3",
+          "lot1_surface_carrez": null,
+          "lot2_numero": null,
+          "lot2_surface_carrez": null,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 26,
+          "nombre_pieces_principales": 1,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.354188,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.354188,
+            "lat": 48.852524
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/327f1e029cb86f83d42f59ab19f7e62a2c660d8a"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "327f1e029cb86f83d42f59ab19f7e62a2c660d8a",
+        "timestamp": "2021-05-29T05:40:00Z",
+        "size": 344,
+        "fields": {
+          "id_mutation": "2019-1514864",
+          "date_mutation": "2019-12-31",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 27200000,
+          "adresse_numero": 7,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "RUE JEAN DU BELLAY",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": null,
+          "lot1_surface_carrez": null,
+          "lot2_numero": null,
+          "lot2_surface_carrez": null,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 47,
+          "nombre_pieces_principales": 2,
+          "nature_culture": "sols",
+          "surface_terrain": 231,
+          "longitude": 2.353674,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.353674,
+            "lat": 48.853392
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/f4eb6bd97c3a4a4852f69fa7a50d6fa6837a59d6"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "f4eb6bd97c3a4a4852f69fa7a50d6fa6837a59d6",
+        "timestamp": "2021-05-29T05:39:00Z",
+        "size": 347,
+        "fields": {
+          "id_mutation": "2015-1185496",
+          "date_mutation": "2015-07-21",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 4700000,
+          "adresse_numero": 34,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "QUAI DE BETHUNE",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "21",
+          "lot1_surface_carrez": 229.35,
+          "lot2_numero": "38",
+          "lot2_surface_carrez": null,
+          "lot3_numero": "39",
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 117,
+          "nombre_pieces_principales": 4,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.356595,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.356595,
+            "lat": 48.851212
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/24590b3a4e3699cfcf65c34b8ef9f12c04a7211f"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "24590b3a4e3699cfcf65c34b8ef9f12c04a7211f",
+        "timestamp": "2021-05-29T05:39:00Z",
+        "size": 352,
+        "fields": {
+          "id_mutation": "2015-1185676",
+          "date_mutation": "2015-09-03",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 1357000,
+          "adresse_numero": 72,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "RUE ST LOUIS EN L ILE",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "24",
+          "lot1_surface_carrez": null,
+          "lot2_numero": "25",
+          "lot2_surface_carrez": null,
+          "lot3_numero": "26",
+          "lot3_surface_carrez": null,
+          "lot4_numero": "29",
+          "lot4_surface_carrez": null,
+          "lot5_numero": "6",
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 40,
+          "nombre_pieces_principales": 0,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.355085,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.355085,
+            "lat": 48.85251
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/89867cbebe7ee7b4e0363d6c90996e90094631c6"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "89867cbebe7ee7b4e0363d6c90996e90094631c6",
+        "timestamp": "2021-05-29T05:39:00Z",
+        "size": 334,
+        "fields": {
+          "id_mutation": "2020-1074571",
+          "date_mutation": "2020-06-22",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 420000,
+          "adresse_numero": 10,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "RUE BUDE",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "310",
+          "lot1_surface_carrez": 36.85,
+          "lot2_numero": "316",
+          "lot2_surface_carrez": null,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 40,
+          "nombre_pieces_principales": 1,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.355846,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.355846,
+            "lat": 48.851729
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/53a16c3dd856f40d8815e0e911bc0b6a23de9cd5"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "53a16c3dd856f40d8815e0e911bc0b6a23de9cd5",
+        "timestamp": "2021-05-29T05:39:00Z",
+        "size": 334,
+        "fields": {
+          "id_mutation": "2020-1074588",
+          "date_mutation": "2020-07-09",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 696000,
+          "adresse_numero": 35,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "RUE DES DEUX PONTS",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "41",
+          "lot1_surface_carrez": 47,
+          "lot2_numero": null,
+          "lot2_surface_carrez": null,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 48,
+          "nombre_pieces_principales": 2,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.35669,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.35669,
+            "lat": 48.852339
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/902528ed90faeb16c00961f9c33e9771174d5c0a"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "902528ed90faeb16c00961f9c33e9771174d5c0a",
+        "timestamp": "2021-05-29T05:38:00Z",
+        "size": 331,
+        "fields": {
+          "id_mutation": "2014-1089943",
+          "date_mutation": "2014-08-29",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 630000,
+          "adresse_numero": 7,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "QUAI AUX FLEURS",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "12",
+          "lot1_surface_carrez": 53.45,
+          "lot2_numero": null,
+          "lot2_surface_carrez": null,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 51,
+          "nombre_pieces_principales": 2,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.351643,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.351643,
+            "lat": 48.85361
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/89ccb871d8fc1e716d5a457a0d835b365b057eb7"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "89ccb871d8fc1e716d5a457a0d835b365b057eb7",
+        "timestamp": "2021-05-29T05:38:00Z",
+        "size": 350,
+        "fields": {
+          "id_mutation": "2014-1090024",
+          "date_mutation": "2014-09-30",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 1000000,
+          "adresse_numero": 10,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "RUE LE REGRATTIER",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "209",
+          "lot1_surface_carrez": 63.03,
+          "lot2_numero": "235",
+          "lot2_surface_carrez": null,
+          "lot3_numero": "355",
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 63,
+          "nombre_pieces_principales": 3,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.354851,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.354851,
+            "lat": 48.851952
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/4c70bee048271bfc564c5a9b99fd9feae92b8e20"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "4c70bee048271bfc564c5a9b99fd9feae92b8e20",
+        "timestamp": "2021-05-29T05:38:00Z",
+        "size": 356,
+        "fields": {
+          "id_mutation": "2018-1431100",
+          "date_mutation": "2018-01-15",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 1030000,
+          "adresse_numero": 10,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "RUE LE REGRATTIER",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "241",
+          "lot1_surface_carrez": 89.41,
+          "lot2_numero": "242",
+          "lot2_surface_carrez": null,
+          "lot3_numero": "243",
+          "lot3_surface_carrez": null,
+          "lot4_numero": "266",
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 82,
+          "nombre_pieces_principales": 2,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.354851,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.354851,
+            "lat": 48.851952
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/5e75451df38fb5546dbafd836b118122619ffa21"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "5e75451df38fb5546dbafd836b118122619ffa21",
+        "timestamp": "2021-05-29T05:38:00Z",
+        "size": 340,
+        "fields": {
+          "id_mutation": "2018-1431162",
+          "date_mutation": "2018-02-01",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 1450000,
+          "adresse_numero": 18,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "QUAI D ORLEANS",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "277",
+          "lot1_surface_carrez": 85,
+          "lot2_numero": "283",
+          "lot2_surface_carrez": null,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 73,
+          "nombre_pieces_principales": 4,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.354759,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.354759,
+            "lat": 48.851781
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/5eb394f9b1d1ddd0e6245915851c06ba9e3ecc7f"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "5eb394f9b1d1ddd0e6245915851c06ba9e3ecc7f",
+        "timestamp": "2021-05-29T05:38:00Z",
+        "size": 334,
+        "fields": {
+          "id_mutation": "2018-1431505",
+          "date_mutation": "2018-04-11",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 305000,
+          "adresse_numero": 64,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "RUE ST LOUIS EN L ILE",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "22",
+          "lot1_surface_carrez": 15.95,
+          "lot2_numero": null,
+          "lot2_surface_carrez": null,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 16,
+          "nombre_pieces_principales": 1,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.35567,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.35567,
+            "lat": 48.8524
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/5d4872c8953009b5418647dea0bf3a2c2402ad98"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "5d4872c8953009b5418647dea0bf3a2c2402ad98",
+        "timestamp": "2021-05-29T05:38:00Z",
+        "size": 343,
+        "fields": {
+          "id_mutation": "2018-1431846",
+          "date_mutation": "2018-06-22",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 663400,
+          "adresse_numero": 21,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "QUAI DE BOURBON",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "20",
+          "lot1_surface_carrez": 48.3,
+          "lot2_numero": "30",
+          "lot2_surface_carrez": null,
+          "lot3_numero": "58",
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 52,
+          "nombre_pieces_principales": 3,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.354892,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.354892,
+            "lat": 48.852877
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/26a6c30c329dcd5dd42d46d04c68e1f5ab62ae23"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "26a6c30c329dcd5dd42d46d04c68e1f5ab62ae23",
+        "timestamp": "2021-05-29T05:38:00Z",
+        "size": 339,
+        "fields": {
+          "id_mutation": "2018-1432232",
+          "date_mutation": "2018-10-04",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 602101.4,
+          "adresse_numero": 76,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "RUE ST LOUIS EN L ILE",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "2",
+          "lot1_surface_carrez": 42.18,
+          "lot2_numero": null,
+          "lot2_surface_carrez": null,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 50,
+          "nombre_pieces_principales": 1,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.354763,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.354763,
+            "lat": 48.852584
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/483c0764c61f6edeccef39158a065960a03696a3"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "483c0764c61f6edeccef39158a065960a03696a3",
+        "timestamp": "2021-05-29T05:38:00Z",
+        "size": 340,
+        "fields": {
+          "id_mutation": "2014-1089611",
+          "date_mutation": "2014-06-02",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 970000,
+          "adresse_numero": 67,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "RUE ST LOUIS EN L ILE",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "13",
+          "lot1_surface_carrez": 55.39,
+          "lot2_numero": null,
+          "lot2_surface_carrez": null,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 62,
+          "nombre_pieces_principales": 2,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.354504,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.354504,
+            "lat": 48.852404
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/8d35a1a73de524ee471f60576e16a2a78cba28db"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "8d35a1a73de524ee471f60576e16a2a78cba28db",
+        "timestamp": "2021-05-29T05:38:00Z",
+        "size": 327,
+        "fields": {
+          "id_mutation": "2014-1089664",
+          "date_mutation": "2014-06-19",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 288800,
+          "adresse_numero": 11,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "QUAI DE BOURBON",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "9",
+          "lot1_surface_carrez": null,
+          "lot2_numero": null,
+          "lot2_surface_carrez": null,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 30,
+          "nombre_pieces_principales": 2,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.356375,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.356375,
+            "lat": 48.852438
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/753c9ed1dd88ccaa3cea0d531292bb6063ae3a92"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "753c9ed1dd88ccaa3cea0d531292bb6063ae3a92",
+        "timestamp": "2021-05-29T05:40:00Z",
+        "size": 359,
+        "fields": {
+          "id_mutation": "2019-1514057",
+          "date_mutation": "2019-06-25",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 7698200,
+          "adresse_numero": 3,
+          "adresse_suffixe": "B",
+          "adresse_nom_voie": "QUAI AUX FLEURS",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "28",
+          "lot1_surface_carrez": null,
+          "lot2_numero": "36",
+          "lot2_surface_carrez": null,
+          "lot3_numero": "43",
+          "lot3_surface_carrez": null,
+          "lot4_numero": "44",
+          "lot4_surface_carrez": null,
+          "lot5_numero": "7",
+          "lot5_surface_carrez": 244.09,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 236,
+          "nombre_pieces_principales": 8,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.351778,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.351778,
+            "lat": 48.853313
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/7717847503731511fc72cb5219a7af708e8de16b"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "7717847503731511fc72cb5219a7af708e8de16b",
+        "timestamp": "2021-05-29T05:40:00Z",
+        "size": 343,
+        "fields": {
+          "id_mutation": "2019-1514068",
+          "date_mutation": "2019-07-10",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 1475000,
+          "adresse_numero": 10,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "RUE CHANOINESSE",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "108",
+          "lot1_surface_carrez": 100.21,
+          "lot2_numero": "125",
+          "lot2_surface_carrez": null,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 95,
+          "nombre_pieces_principales": 3,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.351417,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.351417,
+            "lat": 48.853523
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/eba95ebbcc5754a4305df0425f354cac160d8a80"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "eba95ebbcc5754a4305df0425f354cac160d8a80",
+        "timestamp": "2021-05-29T05:40:00Z",
+        "size": 340,
+        "fields": {
+          "id_mutation": "2019-1514237",
+          "date_mutation": "2019-08-07",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 850000,
+          "adresse_numero": 44,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "RUE ST LOUIS EN L ILE",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "24",
+          "lot1_surface_carrez": 61.83,
+          "lot2_numero": null,
+          "lot2_surface_carrez": null,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 60,
+          "nombre_pieces_principales": 2,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.356944,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.356944,
+            "lat": 48.851909
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/7dd436ef49eefb0e79033d127935054bd1f0a7ba"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "7dd436ef49eefb0e79033d127935054bd1f0a7ba",
+        "timestamp": "2021-05-29T05:40:00Z",
+        "size": 340,
+        "fields": {
+          "id_mutation": "2019-1514818",
+          "date_mutation": "2019-12-10",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 345000,
+          "adresse_numero": 29,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "RUE ST LOUIS EN L ILE",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "11",
+          "lot1_surface_carrez": 32.31,
+          "lot2_numero": null,
+          "lot2_surface_carrez": null,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 27,
+          "nombre_pieces_principales": 1,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.356734,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.356734,
+            "lat": 48.851562
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/091c1acdefceb6dfab15f9af4ed9940634873186"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "091c1acdefceb6dfab15f9af4ed9940634873186",
+        "timestamp": "2021-05-29T05:40:00Z",
+        "size": 324,
+        "fields": {
+          "id_mutation": "2016-1272963",
+          "date_mutation": "2016-01-29",
+          "nature_mutation": "Echange",
+          "valeur_fonciere": 4000,
+          "adresse_numero": 2,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "RUE BOUTAREL",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "20",
+          "lot1_surface_carrez": null,
+          "lot2_numero": null,
+          "lot2_surface_carrez": null,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 65,
+          "nombre_pieces_principales": 3,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.353949,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.353949,
+            "lat": 48.852186
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/1f72e6e4e9ae84be242bb1ef8dd8626df99d1b41"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "1f72e6e4e9ae84be242bb1ef8dd8626df99d1b41",
+        "timestamp": "2021-05-29T05:40:00Z",
+        "size": 343,
+        "fields": {
+          "id_mutation": "2016-1273938",
+          "date_mutation": "2016-10-14",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 190000,
+          "adresse_numero": 78,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "RUE ST LOUIS EN L ILE",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "12",
+          "lot1_surface_carrez": null,
+          "lot2_numero": "2",
+          "lot2_surface_carrez": null,
+          "lot3_numero": "24",
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 25,
+          "nombre_pieces_principales": 1,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.354742,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.354742,
+            "lat": 48.852716
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/aeb337bcec09b8fc1856587d67210a3b2b0f0f51"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "aeb337bcec09b8fc1856587d67210a3b2b0f0f51",
+        "timestamp": "2021-05-29T05:40:00Z",
+        "size": 329,
+        "fields": {
+          "id_mutation": "2016-1274108",
+          "date_mutation": "2016-11-21",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 18000,
+          "adresse_numero": 6,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "RUE FRANCOIS MIRON",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "20",
+          "lot1_surface_carrez": null,
+          "lot2_numero": null,
+          "lot2_surface_carrez": null,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 70,
+          "nombre_pieces_principales": 3,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.355128,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.355128,
+            "lat": 48.855675
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/eb26adc6c49c29723723c865ff0c5b15bf28eb56"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "eb26adc6c49c29723723c865ff0c5b15bf28eb56",
+        "timestamp": "2021-05-29T05:40:00Z",
+        "size": 326,
+        "fields": {
+          "id_mutation": "2016-1274188",
+          "date_mutation": "2016-12-22",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 719962,
+          "adresse_numero": 3,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "QUAI DE BOURBON",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "3",
+          "lot1_surface_carrez": null,
+          "lot2_numero": null,
+          "lot2_surface_carrez": null,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 37,
+          "nombre_pieces_principales": 2,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.356822,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.356822,
+            "lat": 48.852411
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/97ddeca11eda00900797b9a4ec43f582d025493c"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "97ddeca11eda00900797b9a4ec43f582d025493c",
+        "timestamp": "2021-05-29T05:39:00Z",
+        "size": 340,
+        "fields": {
+          "id_mutation": "2017-1445928",
+          "date_mutation": "2017-02-21",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 900000,
+          "adresse_numero": 51,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "RUE ST LOUIS EN L ILE",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "118",
+          "lot1_surface_carrez": 28.6,
+          "lot2_numero": null,
+          "lot2_surface_carrez": null,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 30,
+          "nombre_pieces_principales": 2,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.355343,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.355343,
+            "lat": 48.851941
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/8ead692ffa81a9f0bab219cb3e5d4902e3339186"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "8ead692ffa81a9f0bab219cb3e5d4902e3339186",
+        "timestamp": "2021-05-29T05:39:00Z",
+        "size": 322,
+        "fields": {
+          "id_mutation": "2017-1446248",
+          "date_mutation": "2017-05-04",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 3660,
+          "adresse_numero": 5,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "RUE BOUTAREL",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "16",
+          "lot1_surface_carrez": null,
+          "lot2_numero": null,
+          "lot2_surface_carrez": null,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 12,
+          "nombre_pieces_principales": 1,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.353841,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.353841,
+            "lat": 48.852546
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/f7d12d2708000aec42343b2f2ff9bb4dfed03c90"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "f7d12d2708000aec42343b2f2ff9bb4dfed03c90",
+        "timestamp": "2021-05-29T05:39:00Z",
+        "size": 338,
+        "fields": {
+          "id_mutation": "2017-1446285",
+          "date_mutation": "2017-04-10",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 290000,
+          "adresse_numero": 40,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "QUAI D ORLEANS",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "42",
+          "lot1_surface_carrez": null,
+          "lot2_numero": "46",
+          "lot2_surface_carrez": 23.85,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 23,
+          "nombre_pieces_principales": 2,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.353576,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.353576,
+            "lat": 48.852605
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/f78144bed3ef830f428129584e960897892bc4e3"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "f78144bed3ef830f428129584e960897892bc4e3",
+        "timestamp": "2021-05-29T05:39:00Z",
+        "size": 344,
+        "fields": {
+          "id_mutation": "2017-1446529",
+          "date_mutation": "2017-07-06",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 500000,
+          "adresse_numero": 57,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "RUE ST LOUIS EN L ILE",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "35",
+          "lot1_surface_carrez": 43.1,
+          "lot2_numero": "61",
+          "lot2_surface_carrez": null,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 39,
+          "nombre_pieces_principales": 2,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.354966,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.354966,
+            "lat": 48.852133
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/1fb17b222dc38544ca3b9ec3df1244ec9807f63f"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "1fb17b222dc38544ca3b9ec3df1244ec9807f63f",
+        "timestamp": "2021-05-29T05:39:00Z",
+        "size": 324,
+        "fields": {
+          "id_mutation": "2017-1446679",
+          "date_mutation": "2017-08-25",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 440000,
+          "adresse_numero": 33,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "QUAI D ANJOU",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "7",
+          "lot1_surface_carrez": null,
+          "lot2_numero": null,
+          "lot2_surface_carrez": null,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 18,
+          "nombre_pieces_principales": 1,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.357405,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.357405,
+            "lat": 48.852128
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/b6ba3f01cce29570c949e06d46294892c7a64750"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "b6ba3f01cce29570c949e06d46294892c7a64750",
+        "timestamp": "2021-05-29T05:39:00Z",
+        "size": 330,
+        "fields": {
+          "id_mutation": "2015-1185070",
+          "date_mutation": "2015-02-19",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 261500,
+          "adresse_numero": 43,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "RUE ST LOUIS EN L ILE",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "10",
+          "lot1_surface_carrez": null,
+          "lot2_numero": null,
+          "lot2_surface_carrez": null,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 25,
+          "nombre_pieces_principales": 1,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.35587,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.35587,
+            "lat": 48.85191
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/dc313d4e534c640f35c752a84efbe7ea8933782d"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "dc313d4e534c640f35c752a84efbe7ea8933782d",
+        "timestamp": "2021-05-29T05:39:00Z",
+        "size": 335,
+        "fields": {
+          "id_mutation": "2015-1185846",
+          "date_mutation": "2015-10-06",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 24100000,
+          "adresse_numero": 1,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "QUAI AUX FLEURS",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "13",
+          "lot1_surface_carrez": null,
+          "lot2_numero": "43",
+          "lot2_surface_carrez": null,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 110,
+          "nombre_pieces_principales": 5,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.351879,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.351879,
+            "lat": 48.852925
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/9e6d1299a49dadc63259abdbb1a3be6f20434cbf"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "9e6d1299a49dadc63259abdbb1a3be6f20434cbf",
+        "timestamp": "2021-05-29T05:39:00Z",
+        "size": 334,
+        "fields": {
+          "id_mutation": "2015-1185846",
+          "date_mutation": "2015-10-06",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 24100000,
+          "adresse_numero": 1,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "QUAI AUX FLEURS",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "40",
+          "lot1_surface_carrez": null,
+          "lot2_numero": "9",
+          "lot2_surface_carrez": null,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 114,
+          "nombre_pieces_principales": 4,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.351879,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.351879,
+            "lat": 48.852925
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/73cf2710f9cf0f3b7e7b5fe9581f9749a6f07eb5"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "73cf2710f9cf0f3b7e7b5fe9581f9749a6f07eb5",
+        "timestamp": "2021-05-29T05:39:00Z",
+        "size": 327,
+        "fields": {
+          "id_mutation": "2020-1074168",
+          "date_mutation": "2020-02-12",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 600000,
+          "adresse_numero": 23,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "QUAI DE BOURBON",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "2",
+          "lot1_surface_carrez": null,
+          "lot2_numero": null,
+          "lot2_surface_carrez": null,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 51,
+          "nombre_pieces_principales": 2,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.354768,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.354768,
+            "lat": 48.852942
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/c8c4ab37ee333cb78c33727737a7c2f2fd411108"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "c8c4ab37ee333cb78c33727737a7c2f2fd411108",
+        "timestamp": "2021-05-29T05:39:00Z",
+        "size": 346,
+        "fields": {
+          "id_mutation": "2020-1074373",
+          "date_mutation": "2020-04-29",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 1493300,
+          "adresse_numero": 17,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "QUAI AUX FLEURS",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "19",
+          "lot1_surface_carrez": 89.04,
+          "lot2_numero": "22",
+          "lot2_surface_carrez": 89.04,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 92,
+          "nombre_pieces_principales": 3,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.351024,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.351024,
+            "lat": 48.854476
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/0f35d306d2bfd175c333e60078497b4d09b2f345"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "0f35d306d2bfd175c333e60078497b4d09b2f345",
+        "timestamp": "2021-05-29T05:39:00Z",
+        "size": 340,
+        "fields": {
+          "id_mutation": "2020-1075015",
+          "date_mutation": "2020-10-20",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 276000,
+          "adresse_numero": 57,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "RUE ST LOUIS EN L ILE",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "14",
+          "lot1_surface_carrez": 25.07,
+          "lot2_numero": null,
+          "lot2_surface_carrez": null,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 54,
+          "nombre_pieces_principales": 2,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.354966,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.354966,
+            "lat": 48.852133
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/bbcfcbf1a26a6347284ee3994c751d56ad6a1cd1"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "bbcfcbf1a26a6347284ee3994c751d56ad6a1cd1",
+        "timestamp": "2021-05-29T05:38:00Z",
+        "size": 324,
+        "fields": {
+          "id_mutation": "2018-1431706",
+          "date_mutation": "2018-06-15",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 823000,
+          "adresse_numero": 7,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "RUE BOUTAREL",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "32",
+          "lot1_surface_carrez": null,
+          "lot2_numero": null,
+          "lot2_surface_carrez": null,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 12,
+          "nombre_pieces_principales": 1,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.353931,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.353931,
+            "lat": 48.852613
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/50d9943f07d914abe44c23a05070bff0abaa0ea5"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "50d9943f07d914abe44c23a05070bff0abaa0ea5",
+        "timestamp": "2021-05-29T05:38:00Z",
+        "size": 348,
+        "fields": {
+          "id_mutation": "2018-1432290",
+          "date_mutation": "2018-10-15",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 1466653,
+          "adresse_numero": 46,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "QUAI DES CELESTINS",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "16",
+          "lot1_surface_carrez": null,
+          "lot2_numero": "32",
+          "lot2_surface_carrez": 89.75,
+          "lot3_numero": "43",
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 90,
+          "nombre_pieces_principales": 4,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.358246,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.358246,
+            "lat": 48.853417
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/6d4f2473206f59bf85a8090566e78fb0f4c5d4bd"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "6d4f2473206f59bf85a8090566e78fb0f4c5d4bd",
+        "timestamp": "2021-05-29T05:38:00Z",
+        "size": 330,
+        "fields": {
+          "id_mutation": "2014-1089276",
+          "date_mutation": "2014-02-14",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 700000,
+          "adresse_numero": 7,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "QUAI AUX FLEURS",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "7",
+          "lot1_surface_carrez": 51.13,
+          "lot2_numero": null,
+          "lot2_surface_carrez": null,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 54,
+          "nombre_pieces_principales": 3,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.351643,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.351643,
+            "lat": 48.85361
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/95e382047cc74e9c2b9bbf643a94ae9d49040983"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "95e382047cc74e9c2b9bbf643a94ae9d49040983",
+        "timestamp": "2021-05-29T05:39:00Z",
+        "size": 333,
+        "fields": {
+          "id_mutation": "2017-1445793",
+          "date_mutation": "2017-01-05",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 275000,
+          "adresse_numero": 39,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "QUAI D ANJOU",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "128",
+          "lot1_surface_carrez": null,
+          "lot2_numero": "129",
+          "lot2_surface_carrez": 20.1,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 20,
+          "nombre_pieces_principales": 1,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.35717,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.35717,
+            "lat": 48.85211
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/3b41dc2e223f7e600f8bf8276a89c0b337088ef6"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "3b41dc2e223f7e600f8bf8276a89c0b337088ef6",
+        "timestamp": "2021-05-29T05:39:00Z",
+        "size": 335,
+        "fields": {
+          "id_mutation": "2017-1446148",
+          "date_mutation": "2017-04-21",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 310000,
+          "adresse_numero": 6,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "RUE LE REGRATTIER",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "21",
+          "lot1_surface_carrez": 21.39,
+          "lot2_numero": null,
+          "lot2_surface_carrez": null,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 20,
+          "nombre_pieces_principales": 1,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.354676,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.354676,
+            "lat": 48.851911
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/f1486b28f4c3bd2dbe0308bd8b08f1192bf375ff"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "f1486b28f4c3bd2dbe0308bd8b08f1192bf375ff",
+        "timestamp": "2021-05-29T05:39:00Z",
+        "size": 333,
+        "fields": {
+          "id_mutation": "2015-1185272",
+          "date_mutation": "2015-04-30",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 218550,
+          "adresse_numero": 19,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "RUE DES URSINS",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "19",
+          "lot1_surface_carrez": 17.56,
+          "lot2_numero": null,
+          "lot2_surface_carrez": null,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 17,
+          "nombre_pieces_principales": 1,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.350527,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.350527,
+            "lat": 48.854509
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/46ac25e5309f8bf6106636b3f2966c3e44734c4f"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "46ac25e5309f8bf6106636b3f2966c3e44734c4f",
+        "timestamp": "2021-05-29T05:40:00Z",
+        "size": 333,
+        "fields": {
+          "id_mutation": "2019-1514713",
+          "date_mutation": "2019-12-09",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 370000,
+          "adresse_numero": 3,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "RUE LE REGRATTIER",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "4",
+          "lot1_surface_carrez": 32.9,
+          "lot2_numero": null,
+          "lot2_surface_carrez": null,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 28,
+          "nombre_pieces_principales": 2,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.354197,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.354197,
+            "lat": 48.851948
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/3662ab103de15172143a99267e51603eba8f983e"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "3662ab103de15172143a99267e51603eba8f983e",
+        "timestamp": "2021-05-29T05:40:00Z",
+        "size": 336,
+        "fields": {
+          "id_mutation": "2019-1514216",
+          "date_mutation": "2019-07-30",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 705000,
+          "adresse_numero": 10,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "RUE DES DEUX PONTS",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "75",
+          "lot1_surface_carrez": null,
+          "lot2_numero": "80",
+          "lot2_surface_carrez": null,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 47,
+          "nombre_pieces_principales": 2,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.356593,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.356593,
+            "lat": 48.851557
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/80ced9950fa3d1b4e848bb6dc10e56fe712d92d3"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "80ced9950fa3d1b4e848bb6dc10e56fe712d92d3",
+        "timestamp": "2021-05-29T05:39:00Z",
+        "size": 333,
+        "fields": {
+          "id_mutation": "2020-1074421",
+          "date_mutation": "2020-05-14",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 1417500,
+          "adresse_numero": 15,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "QUAI DE BOURBON",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "30",
+          "lot1_surface_carrez": 77.19,
+          "lot2_numero": null,
+          "lot2_surface_carrez": null,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 80,
+          "nombre_pieces_principales": 3,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.355949,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.355949,
+            "lat": 48.85238
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/e9940f219988583d7e8a250e96a7b0a8c64b318c"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "e9940f219988583d7e8a250e96a7b0a8c64b318c",
+        "timestamp": "2021-05-29T05:39:00Z",
+        "size": 342,
+        "fields": {
+          "id_mutation": "2020-1075224",
+          "date_mutation": "2020-12-28",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 1350000,
+          "adresse_numero": 18,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "RUE DES DEUX PONTS",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "115",
+          "lot1_surface_carrez": null,
+          "lot2_numero": "12",
+          "lot2_surface_carrez": 94.13,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 92,
+          "nombre_pieces_principales": 4,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.357076,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.357076,
+            "lat": 48.85215
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/07d8d4d637b3183b39f399c95d60572c4ac6d63d"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "07d8d4d637b3183b39f399c95d60572c4ac6d63d",
+        "timestamp": "2021-05-29T05:40:00Z",
+        "size": 340,
+        "fields": {
+          "id_mutation": "2016-1273048",
+          "date_mutation": "2016-02-22",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 2031960,
+          "adresse_numero": 12,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "RUE CHANOINESSE",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "209",
+          "lot1_surface_carrez": 48.03,
+          "lot2_numero": "211",
+          "lot2_surface_carrez": null,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 60,
+          "nombre_pieces_principales": 3,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.351308,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.351308,
+            "lat": 48.85385
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/dcfccd9339688467a37e96716501eab9d9d3ab66"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "dcfccd9339688467a37e96716501eab9d9d3ab66",
+        "timestamp": "2021-05-29T05:40:00Z",
+        "size": 328,
+        "fields": {
+          "id_mutation": "2016-1273406",
+          "date_mutation": "2016-06-02",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 2180000,
+          "adresse_numero": 28,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "QUAI D ORLEANS",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "18",
+          "lot1_surface_carrez": null,
+          "lot2_numero": null,
+          "lot2_surface_carrez": null,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 35,
+          "nombre_pieces_principales": 2,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.354082,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.354082,
+            "lat": 48.852109
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/044053c428019866cdf2a676ce8ae8d2fa43d3d3"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "044053c428019866cdf2a676ce8ae8d2fa43d3d3",
+        "timestamp": "2021-05-29T05:38:00Z",
+        "size": 334,
+        "fields": {
+          "id_mutation": "2014-1089455",
+          "date_mutation": "2014-03-24",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 885000,
+          "adresse_numero": 7,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "RUE BOUTAREL",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "31",
+          "lot1_surface_carrez": null,
+          "lot2_numero": "6",
+          "lot2_surface_carrez": 69.11,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 90,
+          "nombre_pieces_principales": 3,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.353931,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.353931,
+            "lat": 48.852613
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/3abce2529c796ad58058a3eb7242b7aeae69c003"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "3abce2529c796ad58058a3eb7242b7aeae69c003",
+        "timestamp": "2021-05-29T05:38:00Z",
+        "size": 328,
+        "fields": {
+          "id_mutation": "2014-1089476",
+          "date_mutation": "2014-03-31",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 610000,
+          "adresse_numero": 29,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "QUAI D ANJOU",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "23",
+          "lot1_surface_carrez": null,
+          "lot2_numero": "24",
+          "lot2_surface_carrez": null,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 55,
+          "nombre_pieces_principales": 3,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.35761,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.35761,
+            "lat": 48.852066
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/bf5d57c7d259c98c3f478d5c3eee4c4de6a09ed6"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "bf5d57c7d259c98c3f478d5c3eee4c4de6a09ed6",
+        "timestamp": "2021-05-29T05:38:00Z",
+        "size": 334,
+        "fields": {
+          "id_mutation": "2014-1089650",
+          "date_mutation": "2014-05-28",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 550000,
+          "adresse_numero": 5,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "RUE LE REGRATTIER",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "21",
+          "lot1_surface_carrez": null,
+          "lot2_numero": "39",
+          "lot2_surface_carrez": null,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 30,
+          "nombre_pieces_principales": 1,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.354229,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.354229,
+            "lat": 48.852034
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/b5a0b9bfbce65dd451c99952f88c3b3a71b2d56b"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "b5a0b9bfbce65dd451c99952f88c3b3a71b2d56b",
+        "timestamp": "2021-05-29T05:40:00Z",
+        "size": 348,
+        "fields": {
+          "id_mutation": "2019-1513703",
+          "date_mutation": "2019-04-17",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 1331200,
+          "adresse_numero": 46,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "QUAI DES CELESTINS",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "20",
+          "lot1_surface_carrez": null,
+          "lot2_numero": "30",
+          "lot2_surface_carrez": 84.63,
+          "lot3_numero": "45",
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 90,
+          "nombre_pieces_principales": 4,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.358246,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.358246,
+            "lat": 48.853417
+          }
+        }
+      }
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime/records/f14bbc5310234e18247133be105ee4f66ec677fd"
+        },
+        {
+          "rel": "dataset",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets/buildingref-france-demande-de-valeurs-foncieres-geolocalisee-millesime"
+        },
+        {
+          "rel": "datasets",
+          "href": "https://public.opendatasoft.com/api/v2/catalog/datasets"
+        }
+      ],
+      "record": {
+        "id": "f14bbc5310234e18247133be105ee4f66ec677fd",
+        "timestamp": "2021-05-29T05:40:00Z",
+        "size": 339,
+        "fields": {
+          "id_mutation": "2019-1514094",
+          "date_mutation": "2019-07-08",
+          "nature_mutation": "Vente",
+          "valeur_fonciere": 213000,
+          "adresse_numero": 41,
+          "adresse_suffixe": null,
+          "adresse_nom_voie": "QUAI DE BOURBON",
+          "code_postal": "75004",
+          "com_name": "Paris 4e Arrondissement",
+          "lot1_numero": "16",
+          "lot1_surface_carrez": 13.82,
+          "lot2_numero": "17",
+          "lot2_surface_carrez": null,
+          "lot3_numero": null,
+          "lot3_surface_carrez": null,
+          "lot4_numero": null,
+          "lot4_surface_carrez": null,
+          "lot5_numero": null,
+          "lot5_surface_carrez": null,
+          "type_local": "Appartement",
+          "surface_reelle_bati": 14,
+          "nombre_pieces_principales": 1,
+          "nature_culture": null,
+          "surface_terrain": null,
+          "longitude": 2.353544,
+          "dep_name": "Paris",
+          "reg_code": "11",
+          "geo_point": {
+            "lon": 2.353544,
+            "lat": 48.853363
+          }
+        }
+      }
+    }
+  ]
+}
