@@ -10,7 +10,7 @@ This App was made as a web developer portefolio project, to practice React, CSS,
 
 **Client:** React, MUI, google-map-react, 
 
-**Server:** Node, Express, Passport, Node-postgres, Redis, Passport
+**Server:** Node, Express, Passport, Node-postgres, Redis
 
 
 ## Features
