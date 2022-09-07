@@ -1,14 +1,15 @@
 export const savedSearchesStyleSheet = {
   box: {
-    display:"flex", 
-    flexDirection:"column",  
     textAlign: "center", 
-    padding:3
+    marginTop: 5,
+    marginX: "auto",
+    width: "90%"
   },
   typography : {
     fontStyle:"italic", 
     fontWeight:"lighter", 
-    mb:2.5,
+    mb:2,
     color: "primary.main"
-  }
+  },
+  
 }

@@ -102,7 +102,8 @@ theme = createTheme(theme, {
         backgroundColor:"rgb(220,220,220)", 
         boxShadow:"none", 
         border:"1px dashed black", 
-        padding:"5px" 
+        padding:"5px",
+        margin: '10px',
         }
       }
     ]

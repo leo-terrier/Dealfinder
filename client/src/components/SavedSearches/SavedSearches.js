@@ -3,7 +3,7 @@ import {SavedSearch} from "../SavedSearch/SavedSearch.js";
 
 import { savedSearchesStyleSheet } from "./SavedSearches.stylesheet.js";
 
-const {box, typography, grid} = savedSearchesStyleSheet; 
+const {box, typography, gridItem} = savedSearchesStyleSheet; 
 
 export const SavedSearches = ({
   savedSearches, 
@@ -12,10 +12,10 @@ export const SavedSearches = ({
     return (
       <Box  sx={box}>
         <Typography variant="h6" component="h4" sx={typography}>SAVED SEARCHES</Typography>
-        <Grid container spacing={3} >
+        <Grid container >
           {savedSearches.map((savedSearch) => {
             return (
-              <Grid item xs={12} md={6}  key={savedSearch.search_id}>
+              <Grid item xs={12} md={6} sx={gridItem} key={savedSearch.search_id}>
                   <SavedSearch 
                   savedSearch={savedSearch}
                   removeSearch={removeSearch}

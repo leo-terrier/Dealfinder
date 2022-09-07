@@ -99,10 +99,12 @@ export const searchBoxStyleSheet = {
       md: 0,
     },
     mb: {
-      xs: 1.5,
+      xs: 1,
       md: 0,
     },
-    fontSize: "20px"
+    fontSize: {
+      md: "20px",
+      xs: "18px"}
     },
   gridLabelOptional : { 
     alignItems: "center",
@@ -112,7 +114,7 @@ export const searchBoxStyleSheet = {
       md: 0,
     },
     mb: {
-      xs: 1.5,
+      xs: 1,
       md: 0,
     },
     fontSize: {
