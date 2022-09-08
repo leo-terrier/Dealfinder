@@ -44,7 +44,6 @@ function App() {
   const scrollRef = useRef(null)
 
   const setDealOnMapAndCenter = (deal) => {
-    setMapCenter({lng: deal.geo_point.lon, lat: deal.geo_point.lat})
     setDealOnMap(deal.deal_id)
   }
 

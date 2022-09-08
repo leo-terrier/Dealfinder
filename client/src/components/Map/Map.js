@@ -120,15 +120,22 @@ const Map = ({coordinates,
         defaultZoom={16}
         hoverDistance={15}
         onClick={()=> {
-          setDealOnMap('')
+          dealOnMap && setDealOnMap('')
         }}
         /* onmousemove={()=> {  
           console.log(e.lng)
           console.log('hey')
           }} */
           onChange={(e)=> { 
+            console.log('change')
+            /* console.log(mapCenter)
+            console.log(e.center) */
+            dealOnMap && setDealOnMap('')
+            
             setMapCenter(prev => {
-              if(prev[0] != e.center.lng && prev[1] != e.center.lat){
+              const isDiff = prev[0] !== e.center.lng && prev[1] !== e.center.lat
+              //console.log(isDiff)
+              if(prev[0] !== e.center.lng || prev[1] !== e.center.lat){
                 return ([e.center.lng, e.center.lat])
               }else{
                 return prev}
@@ -136,8 +143,11 @@ const Map = ({coordinates,
             }}
             ///REFACTO ICI
 
-          onDrag={() => setMarkersMounting(true)}
-        
+          onDrag={(e) => {
+            console.log('drag')
+            setDealOnMap('')
+            setMarkersMounting(true)
+          }}
          >
             
         {deals.map(deal => (
