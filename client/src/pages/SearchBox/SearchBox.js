@@ -10,17 +10,32 @@ import { SavedSearches } from "../../components/SavedSearches/SavedSearches.js";
 import { searchBoxStyleSheet } from "./SearchBox.stylesheet.js";
 const { card, boxOut, boxIn, typography, grid, gridField, gridLabel,gridLabelOptional, gridWrongInput, gridOptionalPhrase, gridFab,textField, button } = searchBoxStyleSheet;
 
-export const SearchBox = ({getResults, addSearch, removeSearch, savedSearches, isLoadingResults, wrongInput, setWrongInput}) => {
+export const SearchBox = ({
+  getResults, 
+  addSearch, 
+  removeSearch, 
+  savedSearches, 
+  isLoadingResults, 
+  wrongLocationInput, 
+  setWrongLocationInput,
+  address,
+  setAddress,
+  zipcode,
+  setZipcode,
+  isMoreFields,
+  setIsMoreFields,
+  minSurface,
+  setMinSurface,
+  maxSurface,
+  setMaxSurface,
+  minPrice,
+  setMinPrice,
+  maxPrice,
+  setMaxPrice,
+  specStreet,
+  setSpecStreet}) => {
 
-  const [address, setAddress] = useState('33 quai de Bourbon'); 
-  const [zipcode, setZipcode] = useState('75004');
-  const [isMoreFields, setIsMoreFields] = useState(false);
-  const [minSurface, setMinSurface] = useState('');
-  const [maxSurface, setMaxSurface] = useState('');
-  const [minPrice, setMinPrice] = useState('');
-  const [maxPrice, setMaxPrice] = useState('');
-  const [specStreet, setSpecStreet] = useState('');
-
+  
   const handleSubmit = () => {
     getResults({address, 
       zipcode, 
@@ -34,9 +49,9 @@ export const SearchBox = ({getResults, addSearch, removeSearch, savedSearches, i
   const handleSavingSearch = () => {
     //client side validation only
     if(!address || !zipcode){
-      setWrongInput(true)
+      setWrongLocationInput(true)
     }else{
-      setWrongInput(false)
+      setWrongLocationInput(false)
       const newId = uuid();
       const newSearch = {search_id: newId, 
                       address,
@@ -85,7 +100,7 @@ export const SearchBox = ({getResults, addSearch, removeSearch, savedSearches, i
               <Grid item xs={12} md={6} sx={gridField}>
                 <TextField name="zipcode"  id="zipcode" type="text"  value={zipcode}  onChange={(e)=> {setZipcode(e.target.value)}} fullWidth placeholder="e.g., 75004" required sx={textField}/>
             </Grid>
-            <Grid item xs={12}  sx={{ ...gridWrongInput, display: !wrongInput && "none"}} >
+            <Grid item xs={12}  sx={{ ...gridWrongInput, display: !wrongLocationInput && "none"}} >
                 <Typography>
                   Invalid address or zipcode
                 </Typography>

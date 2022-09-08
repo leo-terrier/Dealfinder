@@ -1,20 +1,24 @@
 export const style = {
   box: {
     a: {
-      marginY:{
-      lg: 6, 
-      xs:0
-      }
+      marginBottom:{
+        xl: 6, 
+        xs:0
+        },
     },
     b: {
       display:"flex",
       flexDirection:{
         xs: "column-reverse",
-        lg:"row"
+        xl:"row"
       },
       justifyContent: {
-        lg: "space-evenly"
-      }
+        xl: "space-evenly"
+      },
+      width: {
+        xs:"100%",
+        xl: "auto",
+      },
     }
   },
   typography: {

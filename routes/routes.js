@@ -5,7 +5,7 @@ import { validateLogin, validateRegister, validateSearch, validationRulesLogin, 
 
 import { addSavedDeal, addSavedSearch, authUser, createUser, deleteSavedDeal, deleteSavedSearch, deserialize, getDeals, getSearches } from '../queries.js';
 
-import { callDealsAPI } from '../util/callDealsAPI.js';
+import { callDealsAPI, callDealsAPIFromLocation } from '../util/callDealsAPI.js';
 
 export const router = express.Router();
 
@@ -51,6 +51,14 @@ router.get('/results', validationRulesSearch(), validateSearch, async (req, res)
     res.json(response)
   }
 })
+
+//new map location
+
+router.get('/location', async (req, res) => {
+  const response = await callDealsAPIFromLocation(req.query);
+    res.json(response)
+  })
+
 
 // add savedSearch
 router.post('/searches', addSavedSearch);

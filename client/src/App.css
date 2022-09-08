@@ -29,3 +29,8 @@
 .MuiDataGrid-root .MuiDataGrid-cell--withRenderer:focus {
   outline: none !important;
 }
+
+.MuiAccordionDetails-root .css-15v22id-MuiAccordionDetails-root {
+  margin: 0;
+  padding: 0
+}

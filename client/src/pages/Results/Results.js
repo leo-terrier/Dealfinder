@@ -17,6 +17,12 @@ removeDeal,
 resultsRequested,
 isLoadingResults,
 scrollRef,
+getResultsFromCoordinates,
+wrongLocationInput,
+minSurface,
+maxSurface,
+minPrice,
+maxPrice
 
 }) => {
 
@@ -35,7 +41,7 @@ scrollRef,
   <Box sx={box.a} component="section">
       <Typography variant="h6" component="p" sx={typography}>{searchTitle}</Typography>
       <div ref={scrollRef}/>
-      {deals.length>0 && 
+      {!wrongLocationInput && !isLoadingResults &&
       <Box sx={box.b}>
         {greaterThanMd ?   
         <DealsContainer
@@ -53,9 +59,20 @@ scrollRef,
             removeDeal={removeDeal}
             deals={deals}
             setDealOnMapAndCenter={setDealOnMapAndCenter}/>}
-          <Map coordinates={mapCenter} deals={deals}  dealOnMap={dealOnMap} setDealOnMap={setDealOnMap} setDealOnMapAndCenter={setDealOnMapAndCenter} addDeal={addDeal}
+          <Map 
+          coordinates={mapCenter} 
+          deals={deals}  
+          dealOnMap={dealOnMap} 
+          setDealOnMap={setDealOnMap} 
+          setDealOnMapAndCenter={setDealOnMapAndCenter} 
+          addDeal={addDeal} 
           savedDeals={savedDeals}
           removeDeal={removeDeal}
+          getResultsFromCoordinates={getResultsFromCoordinates}
+          minSurface = {minSurface}
+          maxSurface = {maxSurface}
+          minPrice = {minPrice}
+          maxPrice = {maxPrice}
           />
       </Box>}
     </Box>

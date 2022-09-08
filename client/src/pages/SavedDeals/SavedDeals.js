@@ -23,7 +23,7 @@ export function SavedDeals ({savedDeals, removeDeal})  {
         return(
           <Paper sx={paper} key={savedDeal.deal_id}>
             <Button className="closeButton" sx={button} onClick={() => {removeDeal(savedDeal)}}>
-              <CloseRoundedIcon />
+              <CloseRoundedIcon/>
             </Button>
             <Grid container spacing={2}>
               <Grid item xs={12}>

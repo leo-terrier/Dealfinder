@@ -86,8 +86,16 @@ theme = createTheme(theme, {
           },
           backgroundColor: "#004f9d",
           color: "white",
-        }
-      }
+        },
+      }, 
+      {
+      props: { variant: "fabMap"},
+      style: {
+        "&: hover" : {
+          backgroundColor: "rgb(230, 230, 230)",
+          color:"white"
+        },
+      }}
     ]
   },
   MuiPaper: {
@@ -108,5 +116,7 @@ theme = createTheme(theme, {
       }
     ]
   }, 
-  }
+
+
+  },
 })

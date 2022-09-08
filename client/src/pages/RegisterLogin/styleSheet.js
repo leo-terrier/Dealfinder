@@ -45,5 +45,5 @@ export const style = {
     }, 
     justifyContent:"space-evenly",
     mt: 1
-  }
+  },
 }

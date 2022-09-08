@@ -11,6 +11,13 @@ export const fetchResults = async (params) => {
   return ({deals: responseJson.deals, coordinates: responseJson.coordinates, status: response.status});
 };
 
+export const fetchResultsFromCoordinates = async (params) => {
+  const response = await fetch("/location?"+ serialize(params), {credentials: "include"}); 
+  const responseJson = await response.json();
+  return responseJson;
+}
+
+
 export const addToSearches = async (search) => {
   /* try{ */
     const response = await fetch( '/searches', {
