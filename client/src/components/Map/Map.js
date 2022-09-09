@@ -9,8 +9,10 @@ import { neighborDealsCoordinates } from "../../util/helper";
 import TooltipContent from '../TooltipContent/TooltipContent';
 import { style } from "./Map.stylesheet.js";
 
+const { boxContainer, mapCard,
+  OutterInputBox, fieldBox, input, filterButton, innerInputBox, fabFilter, refreshBox, refreshButton, fiberIcon, tooltip } = style;
 
-const Marker = ({deal, dealOnMap, setDealOnMap, neighborDealsPerCoordinates, addDeal, savedDeals, removeDeal, setMarkersMounting, markersMounting, mapCenter}) => {
+const Marker = ({deal, dealOnMap, setDealOnMap, neighborDealsPerCoordinates, addDeal, savedDeals, removeDeal, key, setMarkersMounting, markersMounting, isLoadingMap, dragCount}) => {
 
   const isDealOnMap = deal.deal_id == dealOnMap ;
 
@@ -31,14 +33,12 @@ const Marker = ({deal, dealOnMap, setDealOnMap, neighborDealsPerCoordinates, add
   );
 
   useEffect(() => { 
-
-    setMarkersMounting(false)}, []
-  )
+    !isLoadingMap && setMarkersMounting(false)}, [markersMounting, dragCount])
+  
 
   return (
-  
-    <Tooltip title={title} open={isDealOnMap} arrow sx={{width:"150px"}}>
-     <FiberManualRecordIcon sx={{cursor: 'pointer', width: '10px', display : markersMounting && "none"}}  color= {neighbors.findIndex(neighbor => neighbor===dealOnMap) !== -1 ? "secondary" : "primary"} fontSize="small" 
+    <Tooltip title={title} open={isDealOnMap} arrow sx={tooltip} key={key}>
+     <FiberManualRecordIcon key={key} sx={{...fiberIcon, display: markersMounting && "none"}}  color= {neighbors.findIndex(neighbor => neighbor===dealOnMap) !== -1 ? "secondary" : "primary"} fontSize="small" 
       onClick={(e)=> {
       e.stopPropagation()
       setDealOnMap(deal.deal_id)}}/>
@@ -61,27 +61,27 @@ const Map = ({coordinates,
 
   const [isFiltersOpen, setIsFiltersOpen] = useState(true);
   const [markersMounting, setMarkersMounting] = useState(false)
+  const [isLoadingMap, setIsLoadingMap] = useState(false)
   const [mapCenter, setMapCenter] = useState([coordinates.lng, coordinates.lat]);
+  const [dragCount, setDragCount] = useState(0);
+
   const [maxPriceMap, setMaxPriceMap] = useState(maxPrice);
   const [minPriceMap, setMinPriceMap] = useState(minPrice);
   const [maxSurfaceMap, setMaxSurfaceMap] = useState(maxSurface);
   const [minSurfaceMap, setMinSurfaceMap] = useState(minSurface);
   
   const fetchResultsFromMap = async () => {
-    setMarkersMounting(true)
-      setTimeout(() => {
-        getResultsFromCoordinates(mapCenter[0], mapCenter[1], maxPriceMap, minPriceMap, maxSurfaceMap, minSurfaceMap)}
-      )
-    }
+    setIsLoadingMap(true)
+    await getResultsFromCoordinates(mapCenter[0], mapCenter[1], maxPriceMap, minPriceMap, maxSurfaceMap, minSurfaceMap)
+    setIsLoadingMap(false)
+    setMarkersMounting(false)
 
+  }
+    
   const neighborDealsPerCoordinates = neighborDealsCoordinates(deals)
-  
-  const { boxContainer, mapCard,
-    OutterInputBox, fieldBox, input, filterButton, innerInputBox, fabFilter} = style;
 
     useEffect(() => {
       fetchResultsFromMap()
-      console.log(mapCenter)
     }, [mapCenter])
 
   return (
@@ -93,7 +93,6 @@ const Map = ({coordinates,
           <Box sx={fieldBox}>
             <label htmlFor="inPrice">Min Price :</label>
             <input style={input} name="minPrice" id="minPrice" type="number"  variant="outlined" value={minPriceMap} onChange={(e)=>{
-              console.log(e.target.value)
               setMinPriceMap(e.target.value)} }/></Box>
           <Box sx={fieldBox}>
             <label htmlFor="maxPrice">Max Price :</label>
@@ -104,12 +103,8 @@ const Map = ({coordinates,
           <Box sx={fieldBox}>
             <label htmlFor="maxSurface">Max Surface :</label>
             <input  style={input} name="maxSurface" id="maxSurface" type="number" variant="outlined" value={maxSurfaceMap} onChange={(e)=>setMaxSurfaceMap(e.target.value) }/></Box>
-        
-          {/* <TextField  sx={{width:"120px", backgroundColor:"white"}}id="outlined-basic" type="number" label="Max Price" variant="outlined" />
-          <TextField  sx={{width:"120px", backgroundColor:"white"}}id="outlined-basic" type="number" label="Min Surface" variant="outlined" />
-          <TextField  sx={{width:"120px", backgroundColor:"white"}}id="outlined-basic" type="number" label="Max Surface" variant="outlined" /> */}
         </Box>
-        <Box sx={{height:"20px", display:"flex", justifyContent:"left", marginTop:"12px"}}><Button size="small" variant="outlined"sx={{ backgroundColor:"white", padding:1.5}} onClick={()=> fetchResultsFromMap()}>Refresh</Button></Box>
+        <Box sx={refreshBox}><Button size="small" variant="outlined"sx={refreshButton} onClick={()=> fetchResultsFromMap()}>Refresh</Button></Box>
       </Box>
     <Card sx={mapCard}>
       <GoogleMapReact
@@ -121,34 +116,25 @@ const Map = ({coordinates,
         hoverDistance={15}
         onClick={()=> {
           dealOnMap && setDealOnMap('')
+          console.log("click")
         }}
-        /* onmousemove={()=> {  
-          console.log(e.lng)
-          console.log('hey')
-          }} */
-          onChange={(e)=> { 
-            console.log('change')
-            /* console.log(mapCenter)
-            console.log(e.center) */
-            dealOnMap && setDealOnMap('')
-            
-            setMapCenter(prev => {
-              const isDiff = prev[0] !== e.center.lng && prev[1] !== e.center.lat
-              //console.log(isDiff)
-              if(prev[0] !== e.center.lng || prev[1] !== e.center.lat){
-                return ([e.center.lng, e.center.lat])
-              }else{
-                return prev}
-            }) 
-            }}
-            ///REFACTO ICI
+        onChange={(e)=> { 
+          console.log('change')
+          dealOnMap && setDealOnMap('')
+          const isDiff = mapCenter[0] !== e.center.lng || mapCenter[1] !== e.center.lat
+          isDiff && setMapCenter([e.center.lng, e.center.lat])
+        }}
 
-          onDrag={(e) => {
-            console.log('drag')
-            setDealOnMap('')
-            setMarkersMounting(true)
-          }}
-         >
+        onDrag= {()=> {
+          console.log('drag ++')
+          setDealOnMap('')
+          setMarkersMounting(true)
+          setDragCount(prev => prev ++)
+        }}
+        onDragEnd= {()=> {
+          setDragCount(prev => prev ++)
+        }}
+        >
             
         {deals.map(deal => (
           <Marker 
@@ -162,9 +148,12 @@ const Map = ({coordinates,
           addDeal={addDeal}
           savedDeals={savedDeals}
           removeDeal={removeDeal}
-          setMarkersMounting={setMarkersMounting}
-          markersMounting={markersMounting}
           mapCenter={mapCenter}
+          markersMounting={markersMounting}
+          setMarkersMounting={setMarkersMounting}
+          isLoadingMap={isLoadingMap}
+          dragCount={dragCount}
+
           />))}
       </GoogleMapReact>
     </Card>

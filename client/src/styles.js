@@ -66,12 +66,12 @@ theme = createTheme(theme, {
                   }
                 },
         {
-          props: { variant: 'noHover' },
+          props: { variant: 'addToSearch' },
           style: {
             '&:hover': {
-              backgroundColor: "transparent",
+              color:"#e91e63"
             },
-            color:"#e91e63"
+            color:"#ff6333"
                   }
                 },
               ]
@@ -82,8 +82,10 @@ theme = createTheme(theme, {
         props: { variant: "fab"},
         style: {
           '&:hover': {
-            backgroundColor: "#004f9d"
+            backgroundColor: "#105dab"
           },
+          height:"60px",
+          width:"60px",
           backgroundColor: "#004f9d",
           color: "white",
         },

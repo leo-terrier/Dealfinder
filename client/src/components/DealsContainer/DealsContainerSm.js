@@ -8,7 +8,7 @@ export const DealsContainerSm = ({addDeal,
   savedDeals,
   removeDeal,
   deals,
-  setDealOnMapAndCenter}) => {
+  setDealOnMap}) => {
 
     const dealAction = (notAdded, deal) => {
       if (notAdded){
@@ -61,7 +61,7 @@ export const DealsContainerSm = ({addDeal,
                   <Button color="success"
                   onClick={(e) => {
                     e.stopPropagation()
-                    setDealOnMapAndCenter(deal)}}>
+                    setDealOnMap(deal.deal_id)}}>
                     Show on map
                   </Button>
                 </Grid>

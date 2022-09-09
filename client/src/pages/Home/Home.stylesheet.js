@@ -9,18 +9,19 @@ export const HomeStyleSheet = {
       sm:"55%", 
       lg:"35%"
       }, 
-    backgroundColor:"rgba(0, 79, 157, .8)", 
+    backgroundColor:"rgba(0, 79, 157)", 
     color:"white", 
     borderRadius:"10px", 
     padding:5}, 
   typography : {
     a: {
-      fontFamily: "chivo", 
+      fontFamily: "Rampart One", 
       textShadow: "1px 1px 2px hsl(245, 79%, 65%)", 
       fontSize:{
-          xs:"40px",
-          sm:"60px"
-        }
+          xs:"50px",
+          sm:"70px"
+        },
+        mb:2,
       },
     b: { 
       fontFamily:"Catamaran", 
@@ -28,8 +29,8 @@ export const HomeStyleSheet = {
       color:"rgb(30, 255, 243)", 
       textAlign:"center", 
       fontSize:{
-        xs:"30px", 
-        sm:"40px"
+        xs:"20px", 
+        sm:"30px"
       }
     }
 

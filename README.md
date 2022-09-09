@@ -20,17 +20,20 @@ This will retreive up to 100 deals, within 300 meters around the given address.
 
 It's also possible to add more filters to narrow down the search : surface (min, max), price (min, max), specific street withing the perimeter around the given address
 
-Results are then be displayed on a map and inside a datagrid
+Results are then be displayed on a map and inside a datagrid.
+
 The grid allows for sorting / filtering each column (address, price, surface, number of rooms, date).
+
+The map can be dynamically draggued and filtered, to get new deals in nearby neighborhoods. 
 
 Both results and searches can be saved in database for the next visit (if the user is registered and signed in). 
 
 
 ## Screenshots
 
-![App Screenshot](https://github.com/leo-terrier/dealfinder/blob/master/screenshots/screenshot.png?raw=true)
-![App Screenshot](https://github.com/leo-terrier/dealfinder/blob/master/screenshots/screenshot2.png?raw=true)
-![App Screenshot](https://github.com/leo-terrier/dealfinder/blob/master/screenshots/screenshot3.png?raw=true)
+![App Screenshot](https://github.com/leo-terrier/dealfinder/blob/master/screenshots/screenshot-1.png?raw=true)
+![App Screenshot](https://github.com/leo-terrier/dealfinder/blob/master/screenshots/screenshot-2.png?raw=true)
+![App Screenshot](https://github.com/leo-terrier/dealfinder/blob/master/screenshots/screenshot-3.png?raw=true)
 
 ## Data source
 

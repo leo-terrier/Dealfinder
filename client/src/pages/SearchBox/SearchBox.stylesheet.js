@@ -44,7 +44,7 @@ export const searchBoxStyleSheet = {
         sm:"55px",
         xs: "45px"
       },
-      fontFamily: "chivo",
+      fontFamily: "Rampart One",
       textShadow: "1px 1px 2px black",
       color: "primary.main" 
     },
@@ -131,8 +131,7 @@ export const searchBoxStyleSheet = {
   },
   gridFab: {
     mt: {
-      xs:2,
-      md: 2,
+      xs:2.5
     }
   },
   textField: {

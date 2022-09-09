@@ -8,7 +8,6 @@ import {style} from "./Results.stylesheet.js";
 export const Results = ({
 addDeal,
 deals,
-setDealOnMapAndCenter,
 mapCenter,
 dealOnMap,
 setDealOnMap,
@@ -22,7 +21,7 @@ wrongLocationInput,
 minSurface,
 maxSurface,
 minPrice,
-maxPrice
+maxPrice,
 
 }) => {
 
@@ -50,7 +49,7 @@ maxPrice
           removeDeal={removeDeal}
           deals={deals}
           isResults ={true}
-          setDealOnMapAndCenter={setDealOnMapAndCenter}
+          setDealOnMap={setDealOnMap}
           greaterThanLg={greaterThanLg}
           isLoadingResults={isLoadingResults}
           />: <DealsContainerSm 
@@ -58,13 +57,12 @@ maxPrice
             savedDeals={savedDeals}
             removeDeal={removeDeal}
             deals={deals}
-            setDealOnMapAndCenter={setDealOnMapAndCenter}/>}
+            setDealOnMap={setDealOnMap}/>}
           <Map 
           coordinates={mapCenter} 
           deals={deals}  
           dealOnMap={dealOnMap} 
           setDealOnMap={setDealOnMap} 
-          setDealOnMapAndCenter={setDealOnMapAndCenter} 
           addDeal={addDeal} 
           savedDeals={savedDeals}
           removeDeal={removeDeal}

@@ -3,7 +3,7 @@ import { DataGrid } from '@mui/x-data-grid';
 import { capitalizeFirstLetter, formatPrice } from "../../util/helper";
 import { containerStyle } from "./DealsContainer.stylesheet.js";
 
-export const DealsContainer = ({addDeal, deals, removeDeal, savedDeals, setDealOnMapAndCenter, greaterThanLg, isLoadingResults}) => {
+export const DealsContainer = ({addDeal, deals, removeDeal, savedDeals, greaterThanLg, setDealOnMap, isLoadingResults}) => {
 
   const columns = [{
     field: 'address',
@@ -69,14 +69,20 @@ export const DealsContainer = ({addDeal, deals, removeDeal, savedDeals, setDealO
     date: deal.date,
   }))
   
-  if (deals.length && !isLoadingResults){
+  if (!isLoadingResults){
     return(
       <Box sx={containerStyle}>   
         <DataGrid
           rows={rows}
           columns={columns}
           onSelectionModelChange={(itm)=>{
-            setDealOnMapAndCenter(deals[deals.findIndex(deal => deal.deal_id === itm[0])])
+            try {
+              setDealOnMap(deals[deals.findIndex(deal => deal.deal_id === itm[0])].deal_id)
+            }catch(e){
+              console.log('Error datagrid =>')
+              console.log(e)
+              return
+            }
           }}
           disableMultipleSelection={true}
           headerHeight={42}

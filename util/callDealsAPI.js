@@ -28,7 +28,6 @@ export const callDealsAPI = async (query) => {
     maxPrice, 
     specStreet
   });
-  console.log(fetchDealsURL)
   const getDeals = await fetch(fetchDealsURL)
   
   const getDealsJson = await getDeals.json();
@@ -107,7 +106,6 @@ export const callDealsAPIFromLocation = async (query) => {
     maxPrice, 
     specStreet
   });
-  console.log(fetchDealsURL)
   const getDeals = await fetch(fetchDealsURL)
   
   const getDealsJson = await getDeals.json();
@@ -116,7 +114,10 @@ export const callDealsAPIFromLocation = async (query) => {
   fs.writeFileSync('./rawData.js', jsonToString);  */
 
   let dealsJson = getDealsJson.records.map(elt => elt.record.fields);
-  console.log(dealsJson)
+  console.log('first deals fetched')
+  console.log(dealsJson[0])
+  console.log(dealsJson[1])
+  console.log(dealsJson[2])
   let deals = []; //selecting information here
 
   const count = {}; //counting the number of building per transaction (ID)

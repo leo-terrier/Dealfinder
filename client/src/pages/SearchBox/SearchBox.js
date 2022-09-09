@@ -142,7 +142,7 @@ export const SearchBox = ({
               <Fab size={'small'} variant="fab" onClick={()=> {setIsMoreFields((prev)=> prev ? false: true)}}> {isMoreFields? <RemoveIcon/>: <AddIcon />}</Fab>
             </Grid>
             <Grid item xs={12}>
-              <Button size="medium"  sx={button} variant="noHover" onClick={handleSavingSearch}> Add to favorites</Button>
+              <Button size="medium"  sx={button} variant="addToSearch" onClick={handleSavingSearch}> Add to favorites</Button>
             </Grid>
             <Grid item xs={12}>
               <Button  variant="contained"  size="large"  sx={button} onClick={handleSubmit}>Find Deals Now</Button>

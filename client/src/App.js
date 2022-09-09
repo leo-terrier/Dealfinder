@@ -43,10 +43,6 @@ function App() {
 
   const scrollRef = useRef(null)
 
-  const setDealOnMapAndCenter = (deal) => {
-    setDealOnMap(deal.deal_id)
-  }
-
   const getResults = async (data) => {
     setIsLoadingResults(true)
     setWrongLocationInput(false)
@@ -69,6 +65,7 @@ function App() {
       maxPrice, 
       minPrice, maxSurface, minSurface, specStreet})
     setResults(response)
+
   }
 
   const addSearch = (search) => {
@@ -166,7 +163,6 @@ function App() {
         <Results 
           addDeal={addDeal}
           deals={results}
-          setDealOnMapAndCenter={setDealOnMapAndCenter}
           mapCenter={mapCenter}
           dealOnMap={dealOnMap} 
           setDealOnMap={setDealOnMap} 
