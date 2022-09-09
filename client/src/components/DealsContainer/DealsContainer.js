@@ -86,7 +86,7 @@ export const DealsContainer = ({addDeal, deals, removeDeal, savedDeals, greaterT
           }}
           disableMultipleSelection={true}
           headerHeight={42}
-          hideFooter={!greaterThanLg && true}/>
+          />
       </Box>
 
       )
