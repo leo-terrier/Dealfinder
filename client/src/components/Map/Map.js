@@ -116,17 +116,14 @@ const Map = ({coordinates,
         hoverDistance={15}
         onClick={()=> {
           dealOnMap && setDealOnMap('')
-          console.log("click")
         }}
         onChange={(e)=> { 
-          console.log('change')
           dealOnMap && setDealOnMap('')
           const isDiff = mapCenter[0] !== e.center.lng || mapCenter[1] !== e.center.lat
           isDiff && setMapCenter([e.center.lng, e.center.lat])
         }}
 
         onDrag= {()=> {
-          console.log('drag ++')
           setDealOnMap('')
           setMarkersMounting(true)
           setDragCount(prev => prev ++)
