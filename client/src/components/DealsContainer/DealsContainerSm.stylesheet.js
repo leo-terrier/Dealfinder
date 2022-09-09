@@ -4,13 +4,14 @@ export const style = {
     flexDirection:"column",  
     alignItems:"center", 
     textAlign: "center", 
-    backgroundColor:"#bbdefb",  
+    backgroundColor:"#004f9d",  
     padding:2, 
     height:"40vh", 
     overflow:"auto", 
   }, 
   paper: {
     padding: 2,
+    boxShadow:"none"
   },
   typography: {
     fontWeight: "bold"
