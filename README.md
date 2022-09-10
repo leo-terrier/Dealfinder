@@ -39,8 +39,8 @@ Both results and searches can be saved in database for the next visit (if the us
 
 API calls : https://public.opendatasoft.com/explore/dataset/demande-de-valeurs-foncieres/table/?flg=fr&sort=date_mutation
 
-Data : https://www.data.gouv.fr/fr/organizations/etalab/
+Data : https://www.data.gouv.fr/fr/datasets/demandes-de-valeurs-foncieres-geolocalisees/
 
-## Authors
+## Author
 
 Léo Terrier

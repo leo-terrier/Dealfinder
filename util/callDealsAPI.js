@@ -3,15 +3,7 @@ import { stripArrondissement } from "./helpers/helpers.js";
 import { coordinatesURL, dealsURL } from "./helpers/urls.js";
 
 export const callDealsAPI = async (query) => {
-  const {
-    address,
-    zipcode,
-    minSurface,
-    maxSurface,
-    minPrice,
-    maxPrice,
-    specStreet,
-  } = query;
+  const { address, zipcode, minSurface, maxSurface, minPrice, maxPrice, specStreet } = query;
 
   const getCoordinates = await fetch(coordinatesURL({ address, zipcode }));
   const getCoordinatesJson = await getCoordinates.json();
@@ -24,10 +16,7 @@ export const callDealsAPI = async (query) => {
     return error;
   }
 
-  const coordinates = [
-    getCoordinatesJson.features[0].geometry.coordinates[0],
-    getCoordinatesJson.features[0].geometry.coordinates[1],
-  ];
+  const coordinates = [getCoordinatesJson.features[0].geometry.coordinates[0], getCoordinatesJson.features[0].geometry.coordinates[1]];
 
   const fetchDealsURL = dealsURL({
     coordinates_1: coordinates[0],
@@ -38,10 +27,10 @@ export const callDealsAPI = async (query) => {
     maxPrice,
     specStreet,
   });
+
   const getDeals = await fetch(fetchDealsURL);
 
   const getDealsJson = await getDeals.json();
-
   /* const jsonToString = await JSON.stringify(getDealsJson)
   fs.writeFileSync('./rawData.js', jsonToString);  */
 
@@ -86,10 +75,8 @@ export const callDealsAPI = async (query) => {
             (agregatedDeal.city = deal.city),
             (agregatedDeal.streetNumber = deal.streetNumber),
             (agregatedDeal.localType = deal.localType),
-            (agregatedDeal.surface =
-              (agregatedDeal.surface || 0) + deal.surface),
-            (agregatedDeal.nbOfRoom =
-              (agregatedDeal.nbOfRoom || 0) + deal.nbOfRoom),
+            (agregatedDeal.surface = (agregatedDeal.surface || 0) + deal.surface),
+            (agregatedDeal.nbOfRoom = (agregatedDeal.nbOfRoom || 0) + deal.nbOfRoom),
             (agregatedDeal.geo_point = deal.geo_point),
             (agregatedDeal.joined = true);
         }
@@ -104,8 +91,7 @@ export const callDealsAPI = async (query) => {
   return { deals, coordinates };
 };
 export const callDealsAPIFromLocation = async (query) => {
-  const { lon, lat, minSurface, maxSurface, minPrice, maxPrice, specStreet } =
-    query;
+  const { lon, lat, minSurface, maxSurface, minPrice, maxPrice, specStreet } = query;
 
   const fetchDealsURL = dealsURL({
     coordinates_1: lon,
@@ -168,10 +154,8 @@ export const callDealsAPIFromLocation = async (query) => {
             (agregatedDeal.city = deal.city),
             (agregatedDeal.streetNumber = deal.streetNumber),
             (agregatedDeal.localType = deal.localType),
-            (agregatedDeal.surface =
-              (agregatedDeal.surface || 0) + deal.surface),
-            (agregatedDeal.nbOfRoom =
-              (agregatedDeal.nbOfRoom || 0) + deal.nbOfRoom),
+            (agregatedDeal.surface = (agregatedDeal.surface || 0) + deal.surface),
+            (agregatedDeal.nbOfRoom = (agregatedDeal.nbOfRoom || 0) + deal.nbOfRoom),
             (agregatedDeal.geo_point = deal.geo_point),
             (agregatedDeal.joined = true);
         }

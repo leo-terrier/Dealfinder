@@ -15,16 +15,7 @@ import { containerStyle, theme } from "./styles.js";
 
 import { About } from "./pages/About/About.js";
 import { SavedDeals } from "./pages/SavedDeals/SavedDeals";
-import {
-  addToDeals,
-  addToSearches,
-  fetchResults,
-  fetchResultsFromCoordinates,
-  fetchSavedDeals,
-  fetchSavedSearches,
-  removeFromDeals,
-  removeFromSearches,
-} from "./util/callingServer.js";
+import { addToDeals, addToSearches, fetchResults, fetchResultsFromCoordinates, fetchSavedDeals, fetchSavedSearches, removeFromDeals, removeFromSearches } from "./util/callingServer.js";
 
 function App() {
   const [results, setResults] = useState([]);
@@ -69,14 +60,7 @@ function App() {
     setResults(response.deals);
   };
 
-  const getResultsFromCoordinates = async (
-    lon,
-    lat,
-    maxPrice,
-    minPrice,
-    maxSurface,
-    minSurface
-  ) => {
+  const getResultsFromCoordinates = async (lon, lat, maxPrice, minPrice, maxSurface, minSurface) => {
     const response = await fetchResultsFromCoordinates({
       lon,
       lat,
@@ -84,7 +68,7 @@ function App() {
       minPrice,
       maxSurface,
       minSurface,
-      specStreet,
+      specStreet: "",
     });
     setResults(response);
   };
@@ -120,9 +104,7 @@ function App() {
   };
 
   const removeSearch = (search) => {
-    setSavedSearches((prev) =>
-      prev.filter((s) => s.search_id !== search.search_id)
-    );
+    setSavedSearches((prev) => prev.filter((s) => s.search_id !== search.search_id));
     if (firstName) {
       removeFromSearches(search);
     }
@@ -149,12 +131,7 @@ function App() {
       <div className="App">
         <NavBar firstName={firstName} setFirstName={setFirstName} />
         <main>
-          <Container
-            component="section"
-            maxWidth={false}
-            disableGutters
-            sx={containerStyle}
-          >
+          <Container component="section" maxWidth={false} disableGutters sx={containerStyle}>
             <Routes>
               <Route path="/" element={<Home />} />
               <Route
@@ -188,20 +165,9 @@ function App() {
                 }
               />
               <Route path="about" element={<About />} />
-              <Route
-                path="register"
-                element={<Register setFirstName={setFirstName} />}
-              />
-              <Route
-                path="login"
-                element={<Login setFirstName={setFirstName} />}
-              />
-              <Route
-                path="saveddeals"
-                element={
-                  <SavedDeals removeDeal={removeDeal} savedDeals={savedDeals} />
-                }
-              />
+              <Route path="register" element={<Register setFirstName={setFirstName} />} />
+              <Route path="login" element={<Login setFirstName={setFirstName} />} />
+              <Route path="saveddeals" element={<SavedDeals removeDeal={removeDeal} savedDeals={savedDeals} />} />
             </Routes>
           </Container>
           <Results

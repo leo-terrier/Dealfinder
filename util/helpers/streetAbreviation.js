@@ -131,7 +131,6 @@ export const abreviations_voie = {
   PRE: "PRE",
   "PRESQU'ILE": "PRQ",
   PROMENADE: "PRO",
-  QUAI: "QU",
   QUARTIER: "QUA",
   RACCOURCI: "RAC",
   RAIDILLON: "RAI",
