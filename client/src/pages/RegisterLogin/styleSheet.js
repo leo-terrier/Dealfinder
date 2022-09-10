@@ -3,7 +3,7 @@ export const style = {
     backgroundColor: "white",
     width: {
       xs: "70%",
-      sm: "35%"
+      sm: "35%",
     },
     padding: 4,
     textAlign: "center",
@@ -16,34 +16,34 @@ export const style = {
       mb: 1.5,
       fontFamily: "Rampart One",
       fontSize: "45px",
-      color: "primary.main"
-      },
+      color: "primary.main",
+    },
     b: {
-      mt: 3
-      },
+      mt: 3,
+    },
     c: {
       mt: {
         xs: 1,
-        lg: 0
-      }
+        lg: 0,
+      },
     },
     d: {
-      mt:2
-    }, 
+      mt: 2,
+    },
   },
   textField: {
     mt: 2,
-    width: "90%"
+    width: "90%",
   },
   button: {
     mt: 4,
-    mb:2,
+    mb: 2,
   },
   box: {
-    display:{
-      lg: "flex"
-    }, 
-    justifyContent:"space-evenly",
-    mt: 1
+    display: {
+      lg: "flex",
+    },
+    justifyContent: "space-evenly",
+    mt: 1,
   },
-}
+};

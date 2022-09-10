@@ -1,5 +1,5 @@
 export const searchBoxStyleSheet = {
-  card : {
+  card: {
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
@@ -10,10 +10,10 @@ export const searchBoxStyleSheet = {
       lg: "52%",
       md: "66%",
       sm: "80%",
-      xs: "83%"
-      },
-    mt:"20px",
+      xs: "83%",
     },
+    mt: "20px",
+  },
   boxOut: {
     maxHeight: {
       //md: "80vh",
@@ -23,66 +23,66 @@ export const searchBoxStyleSheet = {
     paddingX: {
       md: 0,
       xs: 3,
-    }, 
-    marginTop:{
+    },
+    marginTop: {
       xs: 3,
       md: 4,
     },
-    marginBottom:{
+    marginBottom: {
       xs: 3,
       md: 4,
     },
     scrollbarColor: "dark",
   },
   boxIn: {
-    fontWeight:"bold", 
+    fontWeight: "bold",
   },
   typography: {
     a: {
       fontSize: {
         md: "65px",
-        sm:"55px",
-        xs: "45px"
+        sm: "55px",
+        xs: "45px",
       },
       fontFamily: "Rampart One",
       textShadow: "1px 1px 2px black",
-      color: "primary.main" 
+      color: "primary.main",
     },
     b: {
       fontWeight: "bold",
       mt: {
         xs: 2,
-        md: 3
+        md: 3,
       },
       mb: {
         xs: 1,
-        md: 3
+        md: 3,
       },
       fontSize: {
         xs: "21px",
-        md: "23px"
-      }
+        md: "23px",
+      },
     },
     c: {
       mt: {
         xs: 3,
-        md: 3
+        md: 3,
       },
       mb: {
         xs: 0,
-        md: 2
+        md: 2,
       },
       fontStyle: "italic",
       fontWeight: "lighter",
       fontSize: {
         xs: "20px",
-        md: "23px"
-      }
-    }
+        md: "23px",
+      },
+    },
   },
   grid: {
-    width: "80%", 
-    margin:"auto",
+    width: "80%",
+    margin: "auto",
   },
   gridField: {
     display: "flex",
@@ -90,7 +90,7 @@ export const searchBoxStyleSheet = {
     alignItems: "center",
     height: "64px",
   },
-  gridLabel : {
+  gridLabel: {
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
@@ -104,9 +104,10 @@ export const searchBoxStyleSheet = {
     },
     fontSize: {
       md: "20px",
-      xs: "18px"}
+      xs: "18px",
     },
-  gridLabelOptional : { 
+  },
+  gridLabelOptional: {
     alignItems: "center",
     justifyContent: "center",
     mt: {
@@ -119,31 +120,32 @@ export const searchBoxStyleSheet = {
     },
     fontSize: {
       md: "20px",
-      xs: "20px"
-    }
+      xs: "20px",
     },
+  },
   gridWrongInput: {
-    mt:1, 
-    color:"red",
+    mt: 1,
+    color: "red",
   },
   gridOptionalPhrase: {
-    justifyContent: "center"
+    justifyContent: "center",
   },
   gridFab: {
     mt: {
-      xs:2.5
-    }
+      xs: 2.5,
+    },
   },
   textField: {
     width: {
       xs: "85%",
-      md: "90%"
+      md: "90%",
     },
-    color:"black", 
+    color: "black",
   },
   button: {
     mt: {
       md: 2,
-      xs: 2}
-  }
-}
+      xs: 2,
+    },
+  },
+};

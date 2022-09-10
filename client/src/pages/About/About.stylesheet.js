@@ -3,7 +3,7 @@ export const aboutStylesheet = {
     width: {
       xs: "70%",
       sm: "55%",
-      md: "40%"
+      md: "40%",
     },
     backgroundColor: "white",
     borderRadius: "10px",
@@ -18,8 +18,8 @@ export const aboutStylesheet = {
       fontWeight: "bold",
       fontSize: {
         xs: "19px",
-        sm: "25px"
-      }
+        sm: "25px",
+      },
     },
     b: {
       mt: {
@@ -28,8 +28,8 @@ export const aboutStylesheet = {
       },
       fontSize: {
         sm: "20px",
-        xs: "17px"
-      }
+        xs: "17px",
+      },
     },
     c: {
       mt: {
@@ -38,8 +38,8 @@ export const aboutStylesheet = {
       },
       fontSize: {
         sm: "14px",
-        xs: "10px"
-      }
-    }
+        xs: "10px",
+      },
+    },
   },
-}
+};

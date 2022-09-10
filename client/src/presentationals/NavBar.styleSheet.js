@@ -1,44 +1,45 @@
 export const NavBarStyleSheet = {
   toolbar: {
-    backgroundColor:"main.primary", 
-    justifyContent : {
+    backgroundColor: "main.primary",
+    justifyContent: {
       sm: "space-between",
       xs: "center",
     },
   },
   box: {
-    display: "flex", 
+    display: "flex",
     alignItems: "center",
     width: {
-      xs:"100%", 
-      sm:"auto"},
-    justifyContent:  "space-evenly",
+      xs: "100%",
+      sm: "auto",
+    },
+    justifyContent: "space-evenly",
   },
   boxRight: {
     display: "flex",
-    alignItems: "center", 
-    justifyContent : {
+    alignItems: "center",
+    justifyContent: {
       sm: "center",
-      xs:"space-evenly",
-    } 
-  }, 
+      xs: "space-evenly",
+    },
+  },
   button: {
-    textTransform:"none" ,
+    textTransform: "none",
     fontSize: {
       xs: "18px",
       sm: "20px",
-      md: "22px"
+      md: "22px",
     },
-    marginX:{
+    marginX: {
       md: 1.5,
-      sx: .5}, 
+      sx: 0.5,
+    },
     fontFamily: "catamaran",
     fontWeight: "bold",
     color: "white",
   },
-  typography: {
-  },
+  typography: {},
   iconButton: {
-    color: "white"
+    color: "white",
   },
-}
+};

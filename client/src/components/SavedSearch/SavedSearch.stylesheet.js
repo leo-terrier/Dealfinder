@@ -1,17 +1,17 @@
 export const savedSearchStyleSheet = {
   button: {
-    position: 'absolute', 
-    top: "-18px", 
-    right: "-32px"
+    position: "absolute",
+    top: "-18px",
+    right: "-32px",
   },
   typography: {
     a: {
-      fontSize:"12px", 
-      mt:.5
+      fontSize: "12px",
+      mt: 0.5,
     },
     b: {
-      fontSize:"11px", 
-      mt:.5
+      fontSize: "11px",
+      mt: 0.5,
     },
-  }
-}
+  },
+};
