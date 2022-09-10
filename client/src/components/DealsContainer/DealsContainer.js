@@ -3,7 +3,7 @@ import { DataGrid } from '@mui/x-data-grid';
 import { capitalizeFirstLetter, formatPrice } from "../../util/helper";
 import { containerStyle } from "./DealsContainer.stylesheet.js";
 
-export const DealsContainer = ({addDeal, deals, removeDeal, savedDeals, greaterThanLg, setDealOnMap, isLoadingResults}) => {
+export const DealsContainer = ({addDeal, deals, removeDeal, savedDeals, greaterThanXl, setDealOnMap, isLoadingResults}) => {
 
   const columns = [{
     field: 'address',
@@ -38,7 +38,7 @@ export const DealsContainer = ({addDeal, deals, removeDeal, savedDeals, greaterT
     headerName: 'Deal date',
     type: 'date',
     flex:1,
-    align: greaterThanLg ? "right" : "center",
+    align: greaterThanXl ? "right" : "center",
     headerAlign: "center",
     sortComparator: (a, b) => new Date(a) - new Date(b)
   }, {

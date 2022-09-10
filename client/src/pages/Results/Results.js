@@ -29,7 +29,7 @@ maxPrice,
 
   const theme = useTheme();
 
-  const greaterThanLg = useMediaQuery(theme.breakpoints.up("lg"));
+  const greaterThanXl = useMediaQuery(theme.breakpoints.up("xl"));
   const greaterThanMd = useMediaQuery(theme.breakpoints.up("md"));
 
   const {box, typography} = style;
@@ -50,7 +50,7 @@ maxPrice,
           deals={deals}
           isResults ={true}
           setDealOnMap={setDealOnMap}
-          greaterThanLg={greaterThanLg}
+          greaterThanXl={greaterThanXl}
           isLoadingResults={isLoadingResults}
           />: <DealsContainerSm 
             addDeal={addDeal}
