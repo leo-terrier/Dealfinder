@@ -35,6 +35,11 @@ export const callDealsAPI = async (query) => {
   fs.writeFileSync('./rawData.js', jsonToString);  */
 
   let dealsJson = getDealsJson.records.map((elt) => elt.record.fields);
+  console.log("first deals fetched");
+  console.log(dealsJson[0]);
+  console.log(dealsJson[1]);
+  console.log(dealsJson[2]);
+
   let deals = []; //selecting information here
 
   const count = {}; //counting the number of building per transaction (ID)
@@ -110,10 +115,7 @@ export const callDealsAPIFromLocation = async (query) => {
   fs.writeFileSync('./rawData.js', jsonToString);  */
 
   let dealsJson = getDealsJson.records.map((elt) => elt.record.fields);
-  console.log("first deals fetched");
-  console.log(dealsJson[0]);
-  console.log(dealsJson[1]);
-  console.log(dealsJson[2]);
+
   let deals = []; //selecting information here
 
   const count = {}; //counting the number of building per transaction (ID)
