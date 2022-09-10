@@ -68,7 +68,7 @@ function App() {
       minPrice,
       maxSurface,
       minSurface,
-      specStreet: "",
+      specStreet,
     });
     setResults(response);
   };
