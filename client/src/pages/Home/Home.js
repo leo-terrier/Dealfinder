@@ -10,7 +10,7 @@ export function Home() {
         DealFinder
       </Typography>
       <Typography variant="h6" component="h2" sx={typography.b}>
-        Find real estate deals in any french neighborhood!
+        The history of real estate transactions, like never before!
       </Typography>
     </Card>
   );

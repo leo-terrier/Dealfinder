@@ -154,7 +154,7 @@ export const SearchBox = ({
                 }}
               >
                 <Typography component="h3" sx={typography.c}>
-                  Specify the kind of deals that interests you:{" "}
+                  Specify the kind of transactions that interests you:{" "}
                 </Typography>
               </Grid>
               <Grid
@@ -313,7 +313,7 @@ export const SearchBox = ({
               </Grid>
               <Grid item xs={12}>
                 <Button variant="contained" size="large" sx={button} onClick={handleSubmit}>
-                  Find Deals Now
+                  Find transactions
                 </Button>
               </Grid>
             </Grid>
