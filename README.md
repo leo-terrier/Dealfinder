@@ -1,22 +1,22 @@
 
-# Deal Finder
+#  Project 1 : Deal Finder (EN)
 
-This App was made as a web developer portefolio project, to practice React, CSS, HTML, CRUD operations, API, and databases (final codecademy project, Full Stack Career Path). 
+This App was made as a web developer portefolio project, to practice React, CSS, HTML, CRUD operations, API, and databases (final codecademy project, Full Stack Career Path).
 
-**Objective**: Building a simple app to browse the FR national record of real estate deals and get market insights about any location in France.  
+**Objective**: Building a simple app to browse the FR national record of real estate deals and get market insights about any location in France.
 
 
 ## Tech Stack
 
-**Client:** React, MUI, google-map-react, 
+**Client:** React, MUI, google-map-react,
 
 **Server:** Node, Express, Passport, Node-postgres, Redis
 
 
 ## Features
-The first step is to enter a valid location (number, street and zipcode), then clicking Find Deals. 
+The first step is to enter a valid location (number, street and zipcode), then clicking Find Deals.
 
-This will retreive up to 100 deals, within 300 meters around the given address. 
+This will retreive up to 100 deals, within 300 meters around the given address.
 
 It's also possible to add more filters to narrow down the search : surface (min, max), price (min, max), specific street withing the perimeter around the given address
 
@@ -24,16 +24,19 @@ Results are then be displayed on a map and inside a datagrid.
 
 The grid allows for sorting / filtering each column (address, price, surface, number of rooms, date).
 
-The map can be dynamically draggued and filtered, to get new deals in nearby neighborhoods. 
+The map can be dynamically draggued and filtered, to get new deals in nearby neighborhoods.
 
-Both results and searches can be saved in database for the next visit (if the user is registered and signed in). 
+Both results and searches can be saved in database for the next visit (if the user is registered and signed in).
+
+<a href="https://deal-finder-fr.herokuapp.com/">Deployment link</a><br/>
+<a href="https://github.com/leo-terrier/Dealfinder">GitHub repo link</a>
 
 
 ## Screenshots
 
 ![App Screenshot](https://github.com/leo-terrier/dealfinder/blob/master/screenshots/screenshot-1.png?raw=true)
 ![App Screenshot](https://github.com/leo-terrier/dealfinder/blob/master/screenshots/screenshot-2.png?raw=true)
-![App Screenshot](https://github.com/leo-terrier/dealfinder/blob/master/screenshots/screenshot-3.png?raw=true)
+<img src="https://github.com/leo-terrier/dealfinder/blob/master/screenshots/screenshot-3.png?raw=true" style="width:200px;"/>
 
 ## Data source
 
