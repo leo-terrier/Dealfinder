@@ -1,5 +1,5 @@
 
-#  Project 1 : Deal Finder (EN)
+#  Deal Finder (EN)
 
 This App was made as a web developer portefolio project, to practice React, CSS, HTML, CRUD operations, API, and databases (final codecademy project, Full Stack Career Path).
 
@@ -29,8 +29,6 @@ The map can be dynamically draggued and filtered, to get new deals in nearby nei
 Both results and searches can be saved in database for the next visit (if the user is registered and signed in).
 
 <a href="https://deal-finder-fr.herokuapp.com/">Deployment link</a><br/>
-<a href="https://github.com/leo-terrier/Dealfinder">GitHub repo link</a>
-
 
 ## Screenshots
 
