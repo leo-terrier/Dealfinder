@@ -12,7 +12,7 @@ export const searchBoxStyleSheet = {
       sm: "80%",
       xs: "83%",
     },
-    mt: "20px",
+    margin: "auto 0",
   },
   boxOut: {
     maxHeight: {

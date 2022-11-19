@@ -2,7 +2,7 @@ import { createTheme } from "@mui/material/styles";
 import background from "./img/immobilier3.png";
 
 export const containerStyle = {
-  height: "100vh",
+  height: "calc(100vh - 45px)",
   display: "flex",
   justifyContent: "center",
   alignItems: "center",

@@ -1,6 +1,5 @@
 export const NavBarStyleSheet = {
   toolbar: {
-    backgroundColor: "main.primary",
     justifyContent: {
       sm: "space-between",
       xs: "center",

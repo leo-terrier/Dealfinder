@@ -66,7 +66,7 @@ const NavBar = ({ setFirstName, firstName }) => {
   };
 
   return (
-    <AppBar sx={{ position: "absolute" }}>
+    <AppBar position="relative">
       <Toolbar variant="dense" sx={toolbar} component="nav">
         <Box sx={box}>
           <Button sx={{ ...button, display: greaterThanSm ? "auto" : "none" }} to="/" component={Link}>

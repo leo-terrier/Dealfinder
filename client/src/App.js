@@ -130,7 +130,7 @@ function App() {
     <ThemeProvider theme={theme}>
       <div className="App">
         <NavBar firstName={firstName} setFirstName={setFirstName} />
-        <main>
+        <main style={{ marginTop: "-1px" }}>
           <Container component="section" maxWidth={false} disableGutters sx={containerStyle}>
             <Routes>
               <Route path="/" element={<Home />} />
